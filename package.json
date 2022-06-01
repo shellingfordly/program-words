@@ -1,0 +1,11 @@
+{
+  "name": "program-words",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/shellingfordly/program-words.git",
+  "license": "MIT",
+  "scripts": {
+    "mock": "node ./mock/index.js"
+  },
+  "dependencies": {}
+}
