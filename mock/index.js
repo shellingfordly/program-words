@@ -1,6 +1,12 @@
 const fs = require("fs");
 const { join } = require("path");
-const { isDivider, isSentence } = require("./utils");
+const {
+  isDivider,
+  isSentence,
+  isWord,
+  isTranslationSource,
+  isTranslation,
+} = require("./utils");
 
 function parseWords(content) {
   const list = content.split("\n").filter((v) => v);
@@ -27,8 +33,38 @@ function parseWords(content) {
   return sourceList;
 }
 
+function formatWords(list) {
+  const result = [];
+  for (const l of list) {
+    const item = {
+      word: "",
+      translation: [],
+      sentence: "",
+    };
+    for (const str of l) {
+      if (isWord(str)) {
+        item.word = str;
+      } else if (isTranslationSource(str)) {
+        item.translation.push({
+          source: str.replace(/:|\[|\]|\s/g, ""),
+          value: "",
+        });
+      } else if (isTranslation(str)) {
+        const t = item.translation.pop();
+        t.value = str;
+        item.translation.push(t);
+      } else if (isSentence(str)) {
+        item.sentence = str;
+      }
+    }
+    result.push(item);
+  }
+  return result;
+}
+
 (async function init() {
   const result = fs.readFileSync(join(__dirname, "data.txt")).toString();
   const parseList = parseWords(result);
-  fs.writeFileSync(join(__dirname, "data.json"), JSON.stringify(parseList));
+  const formatList = formatWords(parseList);
+  fs.writeFileSync(join(__dirname, "data.json"), JSON.stringify(formatList));
 })();
