@@ -30,6 +30,8 @@ function parseWords(content) {
       }
     }
   }
+
+  console.log("sourceList", sourceList);
   return sourceList;
 }
 
@@ -63,8 +65,13 @@ function formatWords(list) {
 }
 
 (async function init() {
-  const result = fs.readFileSync(join(__dirname, "data.txt")).toString();
+  const result = fs
+    .readFileSync(join(__dirname, "../DATA_SOURCE.txt"))
+    .toString();
   const parseList = parseWords(result);
   const formatList = formatWords(parseList);
-  fs.writeFileSync(join(__dirname, "data.json"), JSON.stringify(formatList));
+  fs.writeFileSync(
+    join(__dirname, "../mock/data.json"),
+    JSON.stringify(formatList)
+  );
 })();
