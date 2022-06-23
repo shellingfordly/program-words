@@ -6,6 +6,7 @@ import Components from "unplugin-vue-components/vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/program-words/",
   server: {
     port: 3300,
   },
