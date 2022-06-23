@@ -5,7 +5,7 @@ const index = ref(0);
 const word = computed(() => Words[index.value]);
 
 const add = () => {
-  if (index.value < Words.length) index.value++;
+  if (index.value < Words.length - 1) index.value++;
   else {
     index.value = 0;
   }
@@ -43,6 +43,7 @@ const minus = () => {
     border-radius: 100%;
     color: #bbb;
     border: 2px solid #bbb;
+    cursor: pointer;
   }
 }
 </style>
