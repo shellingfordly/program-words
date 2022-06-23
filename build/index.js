@@ -69,7 +69,7 @@ function formatWords(list) {
     .readFileSync(join(__dirname, "../DATA_SOURCE.txt"))
     .toString();
   const parseList = parseWords(result);
-  const formatList = formatWords(parseList);
+  const formatList = formatWords(parseList).filter((item) => !!item.word);
   fs.writeFileSync(
     join(__dirname, "../mock/data.json"),
     JSON.stringify(formatList)
