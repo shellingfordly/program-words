@@ -1,4 +1,4 @@
-name: web-doc
+name: Program Words
 on:
   push:
     branches:
