@@ -3,3 +3,4 @@ dist
 mock
 auto-imports.d.ts
 components.d.ts
+./mock/source

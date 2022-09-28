@@ -9,30 +9,33 @@ const {
 } = require("./utils");
 
 function parseWords(content) {
-  const list = content.split("\n").filter((v) => v);
-  const sourceList = [];
-  let cache = [];
+  const list = content.split("\n\n").filter((v) => v);
+
+  const result = [];
 
   for (let i = 0; i < list.length; i++) {
-    const str = list[i];
+    const [word, translations, sentence] = list[i].split("\n");
+    if (i == 0) console.log(sentence);
 
-    if (isDivider(str)) {
-      sourceList.push(cache);
-      cache = [];
-    } else {
-      if (isSentence(str)) {
-        const last = sourceList[sourceList.length - 1];
-        if (last) {
-          last.push(str);
-        }
-      } else {
-        cache.push(str);
-      }
-    }
+    const item = {
+      word,
+      translation: [],
+      sentence,
+    };
+
+    const translationList = translations.split("\\n\\n");
+
+    translationList.forEach((translation) => {
+      const [source, str] = translation.split("\\n");
+      item.translation.push({
+        source: source.trim().replace(/:|\[|\]|\s/g, ""),
+        value: str ? str.trim() : "",
+      });
+    });
+    result.push(item);
   }
 
-  console.log("sourceList", sourceList);
-  return sourceList;
+  return result;
 }
 
 function formatWords(list) {
@@ -65,13 +68,21 @@ function formatWords(list) {
 }
 
 (async function init() {
-  const result = fs
-    .readFileSync(join(__dirname, "../DATA_SOURCE.txt"))
-    .toString();
-  const parseList = parseWords(result);
-  const formatList = formatWords(parseList).filter((item) => !!item.word);
-  fs.writeFileSync(
-    join(__dirname, "../mock/data.json"),
-    JSON.stringify(formatList)
-  );
+  const dirs = fs.readdirSync(join(__dirname, "../mock/source"));
+
+  for (const dir of dirs) {
+    const result = fs
+      .readFileSync(join(__dirname, `../mock/source/${dir}`))
+      .toString();
+
+    const list = parseWords(result);
+    const jsonData = JSON.parse(
+      fs.readFileSync(join(__dirname, "../mock/data.json"))?.toString()
+    );
+
+    fs.writeFileSync(
+      join(__dirname, "../mock/data.json"),
+      JSON.stringify(jsonData.concat(list))
+    );
+  }
 })();

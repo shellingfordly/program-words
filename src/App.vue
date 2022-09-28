@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import Words from "../mock/data.json";
+import Words from "../mock/data1.json";
 
 const index = ref(0);
 const word = computed(() => Words[index.value]);
