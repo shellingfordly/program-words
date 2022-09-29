@@ -1,22 +1,29 @@
 <script lang="ts" setup>
-import WordList from "../../public/data.json";
 import { Dialog } from "vant";
 import "vant/es/dialog/style";
 import { createWordCard } from "@/utils";
+import axios from "axios";
 
+const wordList = ref<WordItem[]>([]);
 const list = ref<WordItem[]>([]);
 const loading = ref(false);
 const finished = ref(false);
 let count = 0;
 
+onMounted(() => {
+  axios.get("/data.json").then((res) => {
+    wordList.value = res.data;
+  });
+});
+
 const onLoad = () => {
   setTimeout(() => {
     for (let i = 0; i < 20; i++) {
-      if (count >= WordList.length) {
+      if (count >= wordList.value.length) {
         finished.value = true;
         break;
       }
-      list.value.push(WordList[count++]);
+      list.value.push(wordList.value[count++]);
     }
     loading.value = false;
   }, 200);

@@ -1,19 +1,26 @@
 <script lang="ts" setup>
-import WordList from "../../public/data.json";
 import { TransSource } from "@/constants";
+import axios from "axios";
 
+const wordList = ref<WordItem[]>([]);
 const isTrans = ref(false);
 const count = ref(0);
-const word = computed(() => WordList[count.value]);
+const word = computed(() => wordList.value[count.value] || {});
+
+onMounted(() => {
+  axios.get("/data.json").then((res) => {
+    wordList.value = res.data;
+  });
+});
 
 const last = () => {
-  if (count.value == 0) count.value = WordList.length - 1;
+  if (count.value == 0) count.value = wordList.value.length - 1;
   else count.value--;
   isTrans.value = false;
 };
 
 const next = () => {
-  if (count.value >= WordList.length) count.value = 0;
+  if (count.value >= wordList.value.length) count.value = 0;
   else count.value++;
   isTrans.value = false;
 };
