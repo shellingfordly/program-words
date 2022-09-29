@@ -7,7 +7,7 @@ import { VantResolver } from "unplugin-vue-components/resolvers";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/program-words/",
+  base: "/",
   server: {
     port: 3300,
   },
