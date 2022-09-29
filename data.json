@@ -1,0 +1,4610 @@
+[
+  {
+    "word": "still",
+    "translation": [
+      { "source": "google", "value": "待处理：布尔值指示数据是否仍在获取" },
+      { "source": "youdaotrans", "value": "等待:指示数据是否是一个布尔值" }
+    ],
+    "sentence": "pending: a boolean indicating whether the data is still being fetched"
+  },
+  {
+    "word": "implementing",
+    "translation": [
+      {
+        "source": "google",
+        "value": "考虑使用懒惰：True并实现加载状态，而不是为了获得更敏捷的用户体验。"
+      },
+      { "source": "youdaotrans", "value": "考虑使用懒惰:真正的和实现loadi" }
+    ],
+    "sentence": "Consider using lazy: true and implementing a loading state instead for a snappier user experience."
+  },
+  {
+    "word": "Consider",
+    "translation": [
+      {
+        "source": "google",
+        "value": "考虑使用懒惰：True并实现加载状态，而不是为了获得更敏捷的用户体验。"
+      },
+      { "source": "youdaotrans", "value": "考虑使用懒惰:真正的和实现loadi" }
+    ],
+    "sentence": "Consider using lazy: true and implementing a loading state instead for a snappier user experience."
+  },
+  {
+    "word": "prevent",
+    "translation": [
+      {
+        "source": "google",
+        "value": "立即：设置为false时，将防止请求立即启动。"
+      },
+      { "source": "youdaotrans", "value": "直接:设置为false时,将防止点播" }
+    ],
+    "sentence": "immediate: When set to false, will prevent the request from firing immediately."
+  },
+  {
+    "word": "alter",
+    "translation": [
+      {
+        "source": "google",
+        "value": "变换：解决后可以改变处理程序功能结果的函数。"
+      },
+      { "source": "youdaotrans", "value": "转换:一个函数,可以用来改变哈" }
+    ],
+    "sentence": "transform: a function that can be used to alter handler function result after resolving"
+  },
+  {
+    "word": "particularly",
+    "translation": [
+      {
+        "source": "google",
+        "value": "默认值：在异步函数解析之前设置数据默认值的出厂函数 - 特别有用："
+      },
+      { "source": "youdaotrans", "value": "默认值:一个工厂函数来设置默认瓦尔" }
+    ],
+    "sentence": "default: a factory function to set the default value of the data, before the async function resolves - particularly useful with the lazy: true option"
+  },
+  {
+    "word": "blocking",
+    "translation": [
+      {
+        "source": "google",
+        "value": "懒惰：是否要在加载路线后解析异步功能，而不是阻止客户端导航（默认为false）"
+      },
+      { "source": "youdaotrans", "value": "懒惰:是否解决异步函数" }
+    ],
+    "sentence": "lazy: whether to resolve the async function after loading the route, instead of blocking client-side navigation (defaults to false)"
+  },
+  {
+    "word": "Existing",
+    "translation": [
+      { "source": "google", "value": "将保留现有的（嵌套）属性。" },
+      { "source": "youdaotrans", "value": "现有(嵌套的)属性将被保留下来。" }
+    ],
+    "sentence": "Existing (nested) properties will be preserved."
+  },
+  {
+    "word": "assignment",
+    "translation": [
+      { "source": "google", "value": "使用深层分配更新应用程序配置。" },
+      { "source": "youdaotrans", "value": "使用深度赋值更新应用程序配置。" }
+    ],
+    "sentence": "Updates app config using deep assignment."
+  },
+  {
+    "word": "relies",
+    "translation": [
+      {
+        "source": "google",
+        "value": "它依赖于对NUXT上下文的访问，并且只能在组件的设置功能，插件和路由中间件中被调用。"
+      },
+      { "source": "youdaotrans", "value": "它依赖于访问Nuxt上下文,可以" }
+    ],
+    "sentence": "It relies on access to the Nuxt context and can only be called within components&#39; setup functions, plugins, and route middleware."
+  },
+  {
+    "word": "individual",
+    "translation": [
+      {
+        "source": "google",
+        "value": "您可以使用预加载项来手动预加载单个组件，这些组件已在NUXT应用中注册。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "您可以使用preloadComponents手动预加载"
+      }
+    ],
+    "sentence": "You can use preloadComponents to manually preload individual components that have been registered globally in your Nuxt app."
+  },
+  {
+    "word": "earlier",
+    "translation": [
+      {
+        "source": "google",
+        "value": "这样可以确保它们早些时候可用，并且不太可能阻止页面的渲染，从而提高性能。"
+      },
+      { "source": "youdaotrans", "value": "这样可以确保他们可以早些时候,勒" }
+    ],
+    "sentence": "This ensures they are available earlier and are less likely to block the page&#39;s render, improving performance."
+  },
+  {
+    "word": "very soon",
+    "translation": [
+      {
+        "source": "google",
+        "value": "预加载组件会加载您的页面很快需要的组件，您希望在渲染生命周期中早期加载。"
+      },
+      { "source": "youdaotrans", "value": "预加载组件加载组件,你的p" }
+    ],
+    "sentence": "Preloading components loads components that your page will need very soon, which you want to start loading early in rendering lifecycle."
+  },
+  {
+    "word": "explicit",
+    "translation": [
+      {
+        "source": "google",
+        "value": "下载和缓存该组件以供预期的未来使用，而无需用户向其提出明确的请求。"
+      },
+      { "source": "youdaotrans", "value": "该组件是anticip下载和缓存" }
+    ],
+    "sentence": "The component is downloaded and cached for anticipated future use without the user making an explicit request for it."
+  },
+  {
+    "word": "instantly",
+    "translation": [
+      {
+        "source": "google",
+        "value": "预取组件在后台下载代码，这是基于以下假设：组件可能用于渲染，使组件能够在用户请求时立即加载。"
+      },
+      { "source": "youdaotrans", "value": "预取英航组件下载代码" }
+    ],
+    "sentence": "Prefetching component downloads the code in the background, this is based on the assumption that the component will likely be used for rendering, enabling the component to load instantly if and when the user requests it."
+  },
+  {
+    "word": "assumption",
+    "translation": [
+      {
+        "source": "google",
+        "value": "预取组件在后台下载代码，这是基于以下假设：组件可能用于渲染，使组件能够在用户请求时立即加载。"
+      },
+      { "source": "youdaotrans", "value": "预取英航组件下载代码" }
+    ],
+    "sentence": "Prefetching component downloads the code in the background, this is based on the assumption that the component will likely be used for rendering, enabling the component to load instantly if and when the user requests it."
+  },
+  {
+    "word": "cluster",
+    "translation": [
+      {
+        "source": "google",
+        "value": "您可以使用nitro_preset = node_cluster，以便使用node.js cluster模块利用多进程性能。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "您可以使用NITRO_PRESET = node_cluster为了"
+      }
+    ],
+    "sentence": "You can use NITRO_PRESET=node_cluster in order to leverage multi-process performance using Node.js cluster module."
+  },
+  {
+    "word": "respect",
+    "translation": [
+      { "source": "google", "value": "该预设将尊重以下运行时环境变量：" },
+      { "source": "youdaotrans", "value": "这个预设会尊重以下运行时env" }
+    ],
+    "sentence": "This preset will respect the following runtime environment variables:"
+  },
+  {
+    "word": "Discover",
+    "translation": [
+      {
+        "source": "google",
+        "value": "发现Nitro的Node.js服务器预设，以在任何节点托管上部署。"
+      },
+      { "source": "youdaotrans", "value": "发现node . js服务器预设与硝基d" }
+    ],
+    "sentence": "Discover the Node.js server preset with Nitro to deploy on any Node hosting."
+  },
+  {
+    "word": "semver-minor",
+    "translation": [
+      {
+        "source": "google",
+        "value": "自定义配置可能会影响生产部署，因为当Nuxt的Semver-Minor版本升级Nitro时，配置接口可能会随着时间而变化。"
+      },
+      { "source": "youdaotrans", "value": "自定义配置会影响到生产部署," }
+    ],
+    "sentence": "Custom config can affect production deployments, as the configuration interface might change over time when Nitro is upgraded in semver-minor versions of Nuxt."
+  },
+  {
+    "word": "deployments",
+    "translation": [
+      {
+        "source": "google",
+        "value": "自定义配置可能会影响生产部署，因为当Nuxt的Semver-Minor版本升级Nitro时，配置接口可能会随着时间而变化。"
+      },
+      { "source": "youdaotrans", "value": "自定义配置会影响到生产部署," }
+    ],
+    "sentence": "Custom config can affect production deployments, as the configuration interface might change over time when Nitro is upgraded in semver-minor versions of Nuxt."
+  },
+  {
+    "word": "affect",
+    "translation": [
+      {
+        "source": "google",
+        "value": "自定义配置可能会影响生产部署，因为当Nuxt的Semver-Minor版本升级Nitro时，配置接口可能会随着时间而变化。"
+      },
+      { "source": "youdaotrans", "value": "自定义配置会影响到生产部署," }
+    ],
+    "sentence": "Custom config can affect production deployments, as the configuration interface might change over time when Nitro is upgraded in semver-minor versions of Nuxt."
+  },
+  {
+    "word": "powered by",
+    "translation": [
+      {
+        "source": "google",
+        "value": "服务器路线由UNJS/H3提供动力，并带有一组方便的助手。"
+      },
+      { "source": "youdaotrans", "value": "服务器线路由unjs / h3是w" }
+    ],
+    "sentence": "Server routes are powered by unjs/h3 which comes with a handy set of helpers."
+  },
+  {
+    "word": "nor",
+    "translation": [
+      {
+        "source": "google",
+        "value": "中间件处理程序不应返回任何内容（也不关闭或响应请求），而只检查或扩展请求上下文或丢失错误。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "中间件处理程序不应该(没有返回任何东西"
+      }
+    ],
+    "sentence": "Middleware handlers should not return anything (nor close or respond to the request) and only inspect or extend the request context or throw an error."
+  },
+  {
+    "word": "sensible",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT会自动生成一个.nuxt/tsconfig.json文件，并使用您在NUXT项目中使用的已解决的别名以及其他明智的默认值。"
+      },
+      { "source": "youdaotrans", "value": "Nuxt自动生成.nuxt / tsconfig.json" }
+    ],
+    "sentence": "Nuxt automatically generates a .nuxt/tsconfig.json file with the resolved aliases you are using in your Nuxt project, as well as with other sensible defaults."
+  },
+  {
+    "word": "benefit",
+    "translation": [
+      {
+        "source": "google",
+        "value": "您可以通过以下内容在项目的根部中创建tsconfig.json来从中受益："
+      },
+      {
+        "source": "youdaotrans",
+        "value": "你可以通过创建一个tsconfig.j从中受益"
+      }
+    ],
+    "sentence": "You can benefit from this by creating a tsconfig.json in the root of your project with the following content:"
+  },
+  {
+    "word": "indicating",
+    "translation": [
+      {
+        "source": "google",
+        "value": ".nuxtignore文件的规格与.gitignore和.eslintignore文件相同，其中每行是一个环形模式，指示应忽略哪些文件。"
+      },
+      { "source": "youdaotrans", "value": ".nuxtignore文件specif相同" }
+    ],
+    "sentence": "The .nuxtignore file is subject to the same specification as .gitignore and .eslintignore files, in which each line is a glob pattern indicating which files should be ignored."
+  },
+  {
+    "word": "entries",
+    "translation": [
+      {
+        "source": "google",
+        "value": "我们建议拥有一个.gitignore文件，该文件至少具有以下条目："
+      },
+      { "source": "youdaotrans", "value": "我们建议有.gitignore在文件" }
+    ],
+    "sentence": "We recommend having a .gitignore file that has at least the following entries present:"
+  },
+  {
+    "word": "at least",
+    "translation": [
+      {
+        "source": "google",
+        "value": "我们建议拥有一个.gitignore文件，该文件至少具有以下条目："
+      },
+      { "source": "youdaotrans", "value": "我们建议有.gitignore在文件" }
+    ],
+    "sentence": "We recommend having a .gitignore file that has at least the following entries present:"
+  },
+  {
+    "word": "intentionally",
+    "translation": [
+      {
+        "source": "google",
+        "value": "一个.gitignore文件指定了git应该忽略的有意的未跟踪文件。"
+      },
+      { "source": "youdaotrans", "value": "指定故意untracke .gitignore文件" }
+    ],
+    "sentence": "A .gitignore file specifies intentionally untracked files that git should ignore."
+  },
+  {
+    "word": "specifies",
+    "translation": [
+      {
+        "source": "google",
+        "value": "一个.gitignore文件指定了git应该忽略的有意的未跟踪文件。"
+      },
+      { "source": "youdaotrans", "value": "指定故意untracke .gitignore文件" }
+    ],
+    "sentence": "A .gitignore file specifies intentionally untracked files that git should ignore."
+  },
+  {
+    "word": "character",
+    "translation": [
+      {
+        "source": "google",
+        "value": "在此模式下，路由器在内部传递的实际URL之前使用哈希字符（＃）。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "在这种模式下,路由器使用一个散列字符(#)性能试验"
+      }
+    ],
+    "sentence": "In this mode, router uses a hash character (#) before the actual URL that is internally passed."
+  },
+  {
+    "word": "disable",
+    "translation": [
+      {
+        "source": "google",
+        "value": "您可以定义包装您的页面和布局的&lt;transition&gt;组件的过渡属性，或通过False将其传递给该路由的&lt;transition&gt;包装器。"
+      },
+      { "source": "youdaotrans", "value": "您可以定义属性的&lt; tran过渡" }
+    ],
+    "sentence": "You can define transition properties for the &lt;transition&gt; component that wraps your pages and layouts, or pass false to disable the &lt;transition&gt; wrapper for that route."
+  },
+  {
+    "word": "Therefore",
+    "translation": [
+      {
+        "source": "google",
+        "value": "因此，页面元对象不能引用组件（或组件上定义的值）。"
+      },
+      { "source": "youdaotrans", "value": "因此,页面元对象不能引用t" }
+    ],
+    "sentence": "Therefore, the page meta object cannot reference the component (or values defined on the component)."
+  },
+  {
+    "word": "macro",
+    "translation": [
+      {
+        "source": "google",
+        "value": "您可以使用DefinePageMeta宏来执行此操作，该宏将在&lt;script&gt;和&lt;script setup&gt;中使用："
+      },
+      { "source": "youdaotrans", "value": "你可以使用definePageMeta宏,wh" }
+    ],
+    "sentence": "You can do this using the definePageMeta macro, which will work both in &lt;script&gt; and in &lt;script setup&gt;:"
+  },
+  {
+    "word": "square brackets",
+    "translation": [
+      {
+        "source": "google",
+        "value": "如果将任何东西放在方括号内，它将变成动态路由参数。"
+      },
+      { "source": "youdaotrans", "value": "如果你把任何在方括号中,w" }
+    ],
+    "sentence": "If you place anything within square brackets, it will be turned into a dynamic route parameter."
+  },
+  {
+    "word": "breaking changes",
+    "translation": [
+      {
+        "source": "google",
+        "value": "Vue-Router文档中描述的其他可能的返回值可能会起作用，但未来可能会发生破坏。"
+      },
+      { "source": "youdaotrans", "value": "其他可能的返回值描述的vue -" }
+    ],
+    "sentence": "Other possible return values described in the vue-router docs may work but there may be breaking changes in future."
+  },
+  {
+    "word": "Despite",
+    "translation": [
+      {
+        "source": "google",
+        "value": "尽管名称相似，但它们与服务器中间件完全不同，服务器中间件在应用程序的Nitro Server一部分中运行。"
+      }
+    ],
+    "sentence": "Despite the similar name, they are completely different from server middleware, which are run in the Nitro server part of your app."
+  },
+  {
+    "word": "integration",
+    "translation": [
+      {
+        "source": "google",
+        "value": "如果您使用的是〜/pages集成，则可以通过设置布局：false进行完全控制，然后在页面中使用&lt;nuxtlayout&gt;组件。"
+      },
+      { "source": "youdaotrans", "value": "如果您使用的是~ /页面集成,可以" }
+    ],
+    "sentence": "If you are using the ~/pages integration, you can take full control by setting layout: false and then using the &lt;NuxtLayout&gt; component within the page."
+  },
+  {
+    "word": "specifying",
+    "translation": [
+      {
+        "source": "google",
+        "value": "通过将&lt;nuxtlayout&gt;添加到您的app.vue中，并将布局属性作为页面元数据的一部分（如果您使用的〜/pegages Integration）或手动指定为&lt;nuxtlayout&gt; &lt;nuxtlayout&gt;。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "使用布局通过添加&lt; NuxtLayout &gt;你的ap"
+      }
+    ],
+    "sentence": "Layouts are used by adding &lt;NuxtLayout&gt; to your app.vue, and either setting a layout property as part of your page metadata (if you are using the ~/pages integration), or by manually specifying it as a prop to &lt;NuxtLayout&gt;."
+  },
+  {
+    "word": "patterns",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT提供了可自定义的布局框架，您可以在整个应用程序中使用，非常适合将常见的UI或代码模式提取到可重复使用的布局组件中。"
+      },
+      { "source": "youdaotrans", "value": "Nuxt提供了一个可定制的布局框架" }
+    ],
+    "sentence": "Nuxt provides a customizable layouts framework you can use throughout your application, ideal for extracting common UI or code patterns into reusable layout components."
+  },
+  {
+    "word": "extracting",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT提供了可自定义的布局框架，您可以在整个应用程序中使用，非常适合将常见的UI或代码模式提取到可重复使用的布局组件中。"
+      },
+      { "source": "youdaotrans", "value": "Nuxt提供了一个可定制的布局框架" }
+    ],
+    "sentence": "Nuxt provides a customizable layouts framework you can use throughout your application, ideal for extracting common UI or code patterns into reusable layout components."
+  },
+  {
+    "word": "customizable",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT提供了可自定义的布局框架，您可以在整个应用程序中使用，非常适合将常见的UI或代码模式提取到可重复使用的布局组件中。"
+      },
+      { "source": "youdaotrans", "value": "Nuxt提供了一个可定制的布局框架" }
+    ],
+    "sentence": "Nuxt provides a customizable layouts framework you can use throughout your application, ideal for extracting common UI or code patterns into reusable layout components."
+  },
+  {
+    "word": "Scanned",
+    "translation": [
+      { "source": "google", "value": "扫描" },
+      { "source": "youdaotrans", "value": "扫描" }
+    ],
+    "sentence": ""
+  },
+  {
+    "word": "Nested Composables",
+    "translation": [
+      { "source": "google", "value": "嵌套的组合" },
+      { "source": "youdaotrans", "value": "嵌套的可组合" }
+    ],
+    "sentence": "Nested Composables"
+  },
+  {
+    "word": "Be aware",
+    "translation": [
+      {
+        "source": "google",
+        "value": "请注意，您必须运行Nuxi准备，Nuxi Dev或Nuxi构建，以便让NUXT生成类型。"
+      },
+      { "source": "youdaotrans", "value": "请注意,您必须运行nuxi准备,nuxi d" }
+    ],
+    "sentence": "Be aware that you have to run nuxi prepare, nuxi dev or nuxi build in order to let Nuxt generates the types."
+  },
+  {
+    "word": "Configure",
+    "translation": [
+      { "source": "google", "value": "配置NUXT组件自动注册。" },
+      { "source": "youdaotrans", "value": "配置Nuxt组件汽车上牌。" }
+    ],
+    "sentence": "Configure Nuxt component auto-registration."
+  },
+  {
+    "word": "integrations",
+    "translation": [
+      {
+        "source": "google",
+        "value": "模块是NUXT扩展，可以扩展其核心功能并添加无尽的集成。"
+      },
+      { "source": "youdaotrans", "value": "可以扩展其c模块Nuxt扩展" }
+    ],
+    "sentence": "Modules are Nuxt extensions which can extend its core functionality and add endless integrations."
+  },
+  {
+    "word": "purposely",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT提供&lt;clientonly&gt;组件，以目的是仅在客户端呈现组件。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "为purpo Nuxt提供&lt; ClientOnly &gt;组件"
+      }
+    ],
+    "sentence": "Nuxt provides the &lt;ClientOnly&gt; component for purposely rendering a component only on client side."
+  },
+  {
+    "word": "bypass",
+    "translation": [
+      {
+        "source": "google",
+        "value": "如果您想要或需要绕过NUXT的自动进出功能，也可以从#Components中明确导入组件。"
+      },
+      { "source": "youdaotrans", "value": "你也可以显式地从#进口组件有限公司" }
+    ],
+    "sentence": "You can also explicitly import components from #components if you want or need to bypass Nuxt&#39;s auto-importing functionality."
+  },
+  {
+    "word": "explicitly",
+    "translation": [
+      {
+        "source": "google",
+        "value": "如果您想要或需要绕过NUXT的自动进出功能，也可以从#Components中明确导入组件。"
+      },
+      { "source": "youdaotrans", "value": "你也可以显式地从#进口组件有限公司" }
+    ],
+    "sentence": "You can also explicitly import components from #components if you want or need to bypass Nuxt&#39;s auto-importing functionality."
+  },
+  {
+    "word": "until",
+    "translation": [
+      {
+        "source": "google",
+        "value": "通过使用懒惰前缀，您可以延迟将组件代码加载到正确的时刻，这可能有助于优化JavaScript捆绑包大小。"
+      },
+      { "source": "youdaotrans", "value": "通过使用懒惰的前缀可以延迟加载" }
+    ],
+    "sentence": "By using the Lazy prefix you can delay loading the component code until the right moment, which can be helpful for optimizing your JavaScript bundle size."
+  },
+  {
+    "word": "though",
+    "translation": [
+      {
+        "source": "google",
+        "value": "另外，尽管不建议您在全球范围内注册所有组件，这将为所有组件创建异步块，并在整个应用程序中提供它们。"
+      },
+      { "source": "youdaotrans", "value": "另外,虽然不推荐,你可以注册" }
+    ],
+    "sentence": "Alternatively, though not recommended, you can register all your components globally, which will create async chunks for all your components and make them available throughout your application."
+  },
+  {
+    "word": "Alternatively",
+    "translation": [
+      {
+        "source": "google",
+        "value": "另外，尽管不建议您在全球范围内注册所有组件，这将为所有组件创建异步块，并在整个应用程序中提供它们。"
+      },
+      { "source": "youdaotrans", "value": "另外,虽然不推荐,你可以注册" }
+    ],
+    "sentence": "Alternatively, though not recommended, you can register all your components globally, which will create async chunks for all your components and make them available throughout your application."
+  },
+  {
+    "word": "in the example above",
+    "translation": [
+      {
+        "source": "google",
+        "value": "（因此，在上面的示例中，您可以重命名按钮。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "(所以,在上面的示例中,您可以重命名按钮"
+      }
+    ],
+    "sentence": "(So, in the example above, you could rename Button.vue to be BaseFooButton.vue.)"
+  },
+  {
+    "word": "matches its name",
+    "translation": [
+      {
+        "source": "google",
+        "value": "为了清楚起见，我们建议该组件的文件名与其名称匹配。"
+      },
+      { "source": "youdaotrans", "value": "为了清楚起见,我们建议组件的费尔" }
+    ],
+    "sentence": "For clarity, we recommend that the component&#39;s filename matches its name."
+  },
+  {
+    "word": "For clarity",
+    "translation": [
+      {
+        "source": "google",
+        "value": "为了清楚起见，我们建议该组件的文件名与其名称匹配。"
+      },
+      { "source": "youdaotrans", "value": "为了清楚起见,我们建议组件的费尔" }
+    ],
+    "sentence": "For clarity, we recommend that the component&#39;s filename matches its name."
+  },
+  {
+    "word": "segments",
+    "translation": [
+      {
+        "source": "google",
+        "value": "然后，组件的名称将基于其自己的路径目录和文件名，并删除重复的片段。"
+      },
+      { "source": "youdaotrans", "value": "然后将基于自己的组件的名称" }
+    ],
+    "sentence": "then the component&#39;s name will be based on its own path directory and filename, with duplicate segments being removed."
+  },
+  {
+    "word": "duplicate",
+    "translation": [
+      {
+        "source": "google",
+        "value": "然后，组件的名称将基于其自己的路径目录和文件名，并删除重复的片段。"
+      },
+      { "source": "youdaotrans", "value": "然后将基于自己的组件的名称" }
+    ],
+    "sentence": "then the component&#39;s name will be based on its own path directory and filename, with duplicate segments being removed."
+  },
+  {
+    "word": "contains",
+    "translation": [
+      { "source": "google", "value": "该目录通常包含以下文件类型：" },
+      { "source": "youdaotrans", "value": "通常包含以下类型的目录" }
+    ],
+    "sentence": "The directory usually contains the following types of files:"
+  },
+  {
+    "word": "deploy",
+    "translation": [
+      {
+        "source": "google",
+        "value": "使用此目录将您的NUXT应用程序部署到生产中。"
+      },
+      { "source": "youdaotrans", "value": "使用这个目录Nuxt应用程序部署" }
+    ],
+    "sentence": "Use this directory to deploy your Nuxt application to production."
+  },
+  {
+    "word": "interesting",
+    "translation": [
+      {
+        "source": "google",
+        "value": "如果您想了解有关文件基于目录结构生成的文件，则此目录很有趣。"
+      },
+      { "source": "youdaotrans", "value": "这个目录是有趣的,如果你想学习" }
+    ],
+    "sentence": "This directory is interesting if you want to learn more about the files Nuxt generates based on your directory structure."
+  },
+  {
+    "word": "whole",
+    "translation": [
+      {
+        "source": "google",
+        "value": "您不应该触摸内部的任何文件，因为在运行NUXT DEV时将重新创建整个目录。"
+      },
+      { "source": "youdaotrans", "value": "你不应该碰wh以来的任何文件里面" }
+    ],
+    "sentence": "You should not touch any files inside since the whole directory will be re-created when running nuxt dev."
+  },
+  {
+    "word": "touch",
+    "translation": [
+      {
+        "source": "google",
+        "value": "您不应该触摸内部的任何文件，因为在运行NUXT DEV时将重新创建整个目录。"
+      },
+      { "source": "youdaotrans", "value": "你不应该碰wh以来的任何文件里面" }
+    ],
+    "sentence": "You should not touch any files inside since the whole directory will be re-created when running nuxt dev."
+  },
+  {
+    "word": "greater",
+    "translation": [
+      {
+        "source": "google",
+        "value": "将代码库转换为打字稿并熟悉它后，您可以开始启用这些检查以获得更大的安全性（阅读更多）。"
+      },
+      { "source": "youdaotrans", "value": "一旦你转换代码库打印稿" }
+    ],
+    "sentence": "Once you’ve converted your codebase to TypeScript and felt familiar with it, you can start enabling these checks for greater safety (read more )."
+  },
+  {
+    "word": "In order to",
+    "translation": [
+      {
+        "source": "google",
+        "value": "为了启用严格的类型检查，您必须更新nuxt.config："
+      },
+      { "source": "youdaotrans", "value": "为了使严格的类型检查," }
+    ],
+    "sentence": "In order to enable strict type checking, you have to update nuxt.config:"
+  },
+  {
+    "word": "certain",
+    "translation": [
+      {
+        "source": "google",
+        "value": "打字稿带有某些检查，可为您提供更多的安全性和分析程序。"
+      },
+      { "source": "youdaotrans", "value": "打印稿带有特定的支票给你" }
+    ],
+    "sentence": "TypeScript comes with certain checks to give you more safety and analysis of your program."
+  },
+  {
+    "word": "converted",
+    "translation": [
+      {
+        "source": "google",
+        "value": "将代码库转换为打字稿并熟悉它后，您可以开始启用这些检查以获得更大的安全性（阅读更多）。"
+      },
+      { "source": "youdaotrans", "value": "一旦你转换代码库打印稿" }
+    ],
+    "sentence": "Once you’ve converted your codebase to TypeScript and felt familiar with it, you can start enabling these checks for greater safety (read more )."
+  },
+  {
+    "word": "accordingly",
+    "translation": [
+      {
+        "source": "google",
+        "value": "Nuxi将相应地捡起它们并扩展。/.nuxt/tsconfig.json。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "nuxi接他们和扩展。/ .nuxt / tsconfig"
+      }
+    ],
+    "sentence": "nuxi will pick them up and extend ./.nuxt/tsconfig.json accordingly."
+  },
+  {
+    "word": "recognized",
+    "translation": [
+      {
+        "source": "google",
+        "value": "这可能会导致模块分辨率，例如未被识别的#imports。"
+      },
+      { "source": "youdaotrans", "value": "这可能导致模块#三角等决议" }
+    ],
+    "sentence": "This can lead to module resolutions such as #imports not being recognized.In case you need to extend options provided by ./.nuxt/tsconfig.json further, you can use the alias property within your nuxt.config."
+  },
+  {
+    "word": "overwritten",
+    "translation": [
+      {
+        "source": "google",
+        "value": "请记住，所有选项都从./.nuxt/tsconfig.json延伸到tsconfig.json中定义的选项。"
+      },
+      { "source": "youdaotrans", "value": "请记住,所有选项扩展。/ .nux" }
+    ],
+    "sentence": "Keep in mind that all options extended from ./.nuxt/tsconfig.json will be overwritten by the options defined in your tsconfig.json."
+  },
+  {
+    "word": "Keep in mind",
+    "translation": [
+      {
+        "source": "google",
+        "value": "请记住，所有选项都从./.nuxt/tsconfig.json延伸到tsconfig.json中定义的选项。"
+      },
+      { "source": "youdaotrans", "value": "请记住,所有选项扩展。/ .nux" }
+    ],
+    "sentence": "Keep in mind that all options extended from ./.nuxt/tsconfig.json will be overwritten by the options defined in your tsconfig.json."
+  },
+  {
+    "word": "available",
+    "translation": [
+      {
+        "source": "google",
+        "value": "另外，NUXT还为您的组合物以及其他核心功能生成了用于全球可用组件和自动进象的类型。"
+      },
+      { "source": "youdaotrans", "value": "另外,全球Nuxt还生成类型效果" }
+    ],
+    "sentence": "Plus, Nuxt also generates types for globally available components and auto-imports from your composables , plus other core functionality."
+  },
+  {
+    "word": "Plus",
+    "translation": [
+      {
+        "source": "google",
+        "value": "另外，NUXT还为您的组合物以及其他核心功能生成了用于全球可用组件和自动进象的类型。"
+      },
+      { "source": "youdaotrans", "value": "另外,全球Nuxt还生成类型效果" }
+    ],
+    "sentence": "Plus, Nuxt also generates types for globally available components and auto-imports from your composables , plus other core functionality."
+  },
+  {
+    "word": "auto-complete",
+    "translation": [
+      {
+        "source": "google",
+        "value": "该文件包含针对您项目的推荐基本字体配置，包括由NUXT或正在使用的模块注入的已解决的别名，因此您可以获得完整的类型支持和PATH自动完成，例如〜/file或＃build/file/file/file。"
+      },
+      { "source": "youdaotrans", "value": "这个文件包含基本TypeScrip推荐" }
+    ],
+    "sentence": "This file contains the recommended basic TypeScript configuration for your project, including resolved aliases injected by Nuxt or modules you are using, so you can get full type support and path auto-complete for aliases like ~/file or #build/file."
+  },
+  {
+    "word": "recognize",
+    "translation": [
+      { "source": "google", "value": "您的IDE应该自动识别这些类型。" },
+      { "source": "youdaotrans", "value": "IDE automaticall应该认识到这些类型" }
+    ],
+    "sentence": "Your IDE should recognize these types automatically."
+  },
+  {
+    "word": "enable",
+    "translation": [
+      {
+        "source": "google",
+        "value": "但是，您可以通过将VUE-TSC和Typescript安装为DevDepentencies，在构建或开发时间内启用类型检查，并在NUXT.Config文件中启用Typescript.typecheck选项，或者使用Nuxi手动检查您的类型。"
+      },
+      { "source": "youdaotrans", "value": "但是,您可以在构建或使类型检查" }
+    ],
+    "sentence": "However, you can enable type-checking at build or development time by installing vue-tsc and typescript as devDependencies and either enabling the typescript.typeCheck option in your nuxt.config file or manually checking your types with nuxi ."
+  },
+  {
+    "word": "accurate",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT 3已完全键入，并提供有用的快捷方式，以确保您在编码时可以访问准确的类型信息。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "Nuxt 3 shortcu是完全类型,并提供帮助"
+      }
+    ],
+    "sentence": "Nuxt 3 is fully typed and provides helpful shortcuts to ensure you have access to accurate type information when you are coding."
+  },
+  {
+    "word": "ensure",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT 3已完全键入，并提供有用的快捷方式，以确保您在编码时可以访问准确的类型信息。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "Nuxt 3 shortcu是完全类型,并提供帮助"
+      }
+    ],
+    "sentence": "Nuxt 3 is fully typed and provides helpful shortcuts to ensure you have access to accurate type information when you are coding."
+  },
+  {
+    "word": "shortcuts",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT 3已完全键入，并提供有用的快捷方式，以确保您在编码时可以访问准确的类型信息。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "Nuxt 3 shortcu是完全类型,并提供帮助"
+      }
+    ],
+    "sentence": "Nuxt 3 is fully typed and provides helpful shortcuts to ensure you have access to accurate type information when you are coding."
+  },
+  {
+    "word": "conditional",
+    "translation": [
+      { "source": "google", "value": "使用有条件出口的新出口字段。" },
+      { "source": "youdaotrans", "value": "使用新的出口字段条件出口。" }
+    ],
+    "sentence": "Use new exports field with conditional exports."
+  },
+  {
+    "word": "polyfills",
+    "translation": [
+      {
+        "source": "google",
+        "value": "避免根据node.js内置和commonjs或node.js的依赖性，以使您的库在浏览器和边缘工人中可用，而无需硝基多填充。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "根据内置函数node . js, CommonJS避免"
+      }
+    ],
+    "sentence": "Avoid depending on Node.js built-ins and CommonJS or Node.js-only dependencies as much as possible to make your library usable in Browsers and Edge Workers without needing Nitro polyfills."
+  },
+  {
+    "word": "built-ins",
+    "translation": [
+      {
+        "source": "google",
+        "value": "避免根据node.js内置和commonjs或node.js的依赖性，以使您的库在浏览器和边缘工人中可用，而无需硝基多填充。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "根据内置函数node . js, CommonJS避免"
+      }
+    ],
+    "sentence": "Avoid depending on Node.js built-ins and CommonJS or Node.js-only dependencies as much as possible to make your library usable in Browsers and Edge Workers without needing Nitro polyfills."
+  },
+  {
+    "word": "conflicts",
+    "translation": [
+      { "source": "google", "value": "这有助于减少CJS冲突。" },
+      { "source": "youdaotrans", "value": "这有助于减少cj冲突。" }
+    ],
+    "sentence": "This helps reduce CJS conflicts."
+  },
+  {
+    "word": "relatively",
+    "translation": [
+      { "source": "google", "value": "好消息是，解决ESM兼容性问题相对简单。" },
+      { "source": "youdaotrans", "value": "好消息是,fi是相对简单的" }
+    ],
+    "sentence": "The good news is that it&#39;s relatively simple to fix issues of ESM compatibility."
+  },
+  {
+    "word": "manually",
+    "translation": [
+      {
+        "source": "google",
+        "value": "在这种情况下，我们需要手动互动默认导出："
+      },
+      {
+        "source": "youdaotrans",
+        "value": "在这种情况下,我们需要手动defa互操作"
+      }
+    ],
+    "sentence": "In this case, we need to manually interop the default export:"
+  },
+  {
+    "word": "such",
+    "translation": [
+      {
+        "source": "google",
+        "value": "Node.js在本机ESM模式下，带有EsmoduleInterop启用的Typescript和WebPack等捆绑包，提供了兼容机制，以便我们默认导入此类库。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "node . js在本机ESM模式中,与esMod打印稿"
+      }
+    ],
+    "sentence": "Node.js in native ESM mode , typescript with esModuleInterop enabled and bundlers such as Webpack, provide a compatibility mechanism so that we can default import such library."
+  },
+  {
+    "word": "compatibility",
+    "translation": [
+      {
+        "source": "google",
+        "value": "Node.js在本机ESM模式下，带有EsmoduleInterop启用的Typescript和WebPack等捆绑包，提供了兼容机制，以便我们默认导入此类库。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "node . js在本机ESM模式中,与esMod打印稿"
+      }
+    ],
+    "sentence": "Node.js in native ESM mode , typescript with esModuleInterop enabled and bundlers such as Webpack, provide a compatibility mechanism so that we can default import such library."
+  },
+  {
+    "word": "mechanism",
+    "translation": [
+      {
+        "source": "google",
+        "value": "Node.js在本机ESM模式下，带有EsmoduleInterop启用的Typescript和WebPack等捆绑包，提供了兼容机制，以便我们默认导入此类库。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "node . js在本机ESM模式中,与esMod打印稿"
+      }
+    ],
+    "sentence": "Node.js in native ESM mode , typescript with esModuleInterop enabled and bundlers such as Webpack, provide a compatibility mechanism so that we can default import such library."
+  },
+  {
+    "word": "dependency",
+    "translation": [
+      {
+        "source": "google",
+        "value": "具有commonjs格式的依赖性，可以使用模块或导出提供默认导出："
+      },
+      {
+        "source": "youdaotrans",
+        "value": "依赖与CommonJS的格式,可以使用模块。"
+      }
+    ],
+    "sentence": "A dependency with CommonJS format, can use module.exports or exports to provide a default export:"
+  },
+  {
+    "word": "In the meantime",
+    "translation": [
+      {
+        "source": "google",
+        "value": "同时，您可以告诉NUXT不要通过将它们添加到build.transpile：Transpile："
+      },
+      { "source": "youdaotrans", "value": "与此同时,你可以告诉Nuxt不是为了我" }
+    ],
+    "sentence": "In the meantime, you can tell Nuxt not to try to import these libraries by adding them to build.transpile:"
+  },
+  {
+    "word": "certainly",
+    "translation": [
+      {
+        "source": "google",
+        "value": "如果您遇到这些错误，几乎可以肯定的是上游库。"
+      },
+      { "source": "youdaotrans", "value": "如果你遇到这些错误,几乎是问题" }
+    ],
+    "sentence": "If you encounter these errors, the issue is almost certainly with the upstream library."
+  },
+  {
+    "word": "encounter",
+    "translation": [
+      {
+        "source": "google",
+        "value": "如果您遇到这些错误，几乎可以肯定的是上游库。"
+      },
+      { "source": "youdaotrans", "value": "如果你遇到这些错误,几乎是问题" }
+    ],
+    "sentence": "If you encounter these errors, the issue is almost certainly with the upstream library."
+  },
+  {
+    "word": "following",
+    "translation": [
+      { "source": "google", "value": "节点支持以下类型的导入（请参阅文档）：" },
+      { "source": "youdaotrans", "value": "节点支持以下类型的进口(见" }
+    ],
+    "sentence": "Node supports the following kinds of imports (see docs ):"
+  },
+  {
+    "word": "rather than",
+    "translation": [
+      {
+        "source": "google",
+        "value": "当您导入模块而不是要求它时，Node.js会以不同的方式解决它。"
+      },
+      { "source": "youdaotrans", "value": "当你导入一个模块,而不是需要它时,N" }
+    ],
+    "sentence": "When you import a module rather than require it, Node.js resolves it differently."
+  },
+  {
+    "word": "treat",
+    "translation": [
+      { "source": "google", "value": "这告诉Node.js将该文件视为本机ES模块。" },
+      { "source": "youdaotrans", "value": "告诉node . js将该文件作为本地" }
+    ],
+    "sentence": "That tells Node.js to treat this file as a native ES module."
+  },
+  {
+    "word": "extension",
+    "translation": [
+      {
+        "source": "google",
+        "value": "设置类型：包装中的“模块”。JSON并继续使用.js扩展"
+      },
+      { "source": "youdaotrans", "value": "设置类型:“模块”在你的包。json和客" }
+    ],
+    "sentence": "set type: &#39;module&#39; within your package.json and keep using .js extension"
+  },
+  {
+    "word": "releases",
+    "translation": [
+      {
+        "source": "google",
+        "value": "但是，在最近的Node.js LTS版本中，现在可以在Node.js中使用本机ESM模块。"
+      },
+      { "source": "youdaotrans", "value": "然而,在最近的node . js LTS版,现在" }
+    ],
+    "sentence": "However, in recent Node.js LTS releases, it is now possible to use native ESM module within Node.js."
+  },
+  {
+    "word": "recent",
+    "translation": [
+      {
+        "source": "google",
+        "value": "但是，在最近的Node.js LTS版本中，现在可以在Node.js中使用本机ESM模块。"
+      },
+      { "source": "youdaotrans", "value": "然而,在最近的node . js LTS版,现在" }
+    ],
+    "sentence": "However, in recent Node.js LTS releases, it is now possible to use native ESM module within Node.js."
+  },
+  {
+    "word": "sample",
+    "translation": [
+      {
+        "source": "google",
+        "value": "示例库可能会公开CJS和ESM版本，让我们选择我们想要的哪个："
+      },
+      { "source": "youdaotrans", "value": "样本库可能暴露cj和ESM版本" }
+    ],
+    "sentence": "A sample library might expose both CJS and ESM versions, and let us pick which one we wanted:"
+  },
+  {
+    "word": "compiled",
+    "translation": [
+      {
+        "source": "google",
+        "value": "毕竟，它是由浏览器本地支持的，在NUXT 2中，我们编译了您编写的所有代码到适当的格式（服务器的CJS，ESM，for Browser）。"
+      },
+      { "source": "youdaotrans", "value": "毕竟,这是本地支持的浏览器," }
+    ],
+    "sentence": "After all, it&#39;s natively supported by the browser, and in Nuxt 2 we compiled all the code you wrote to the appropriate format (CJS for server, ESM for browser)."
+  },
+  {
+    "word": "After all",
+    "translation": [
+      {
+        "source": "google",
+        "value": "毕竟，它是由浏览器本地支持的，在NUXT 2中，我们编译了您编写的所有代码到适当的格式（服务器的CJS，ESM，for Browser）。"
+      },
+      { "source": "youdaotrans", "value": "毕竟,这是本地支持的浏览器," }
+    ],
+    "sentence": "After all, it&#39;s natively supported by the browser, and in Nuxt 2 we compiled all the code you wrote to the appropriate format (CJS for server, ESM for browser)."
+  },
+  {
+    "word": "so-called",
+    "translation": [
+      {
+        "source": "google",
+        "value": "），诸如WebPack之类的工具甚至像Typescript之类的语言开始支持所谓的ESM语法。"
+      },
+      { "source": "youdaotrans", "value": "),工具像webpack甚至语言,像泰" }
+    ],
+    "sentence": "), tooling like webpack and even languages like TypeScript started supporting so-called ESM syntax."
+  },
+  {
+    "word": "became",
+    "translation": [
+      {
+        "source": "google",
+        "value": "在Ecmascript模块（ESM）成为标准之前（花了10多年！"
+      },
+      { "source": "youdaotrans", "value": "在ECMAScript模块(ESM)成为一个标准" }
+    ],
+    "sentence": "Before ECMAScript Modules (ESM) became a standard (it took more than 10 years!"
+  },
+  {
+    "word": "Most of the time",
+    "translation": [
+      {
+        "source": "google",
+        "value": "在大多数情况下，当人们谈论ESM与CJS时，他们正在谈论编写模块的不同语法。"
+      },
+      { "source": "youdaotrans", "value": "大多数时候,当人们谈论ESM vs CJ" }
+    ],
+    "sentence": "Most of the time, when people talk about ESM vs CJS, they are talking about a different syntax for writing modules ."
+  },
+  {
+    "word": "format",
+    "translation": [
+      {
+        "source": "google",
+        "value": "CONCORJS（CJS）是Node.js介绍的格式，允许在隔离的JavaScript模块之间共享功能（阅读更多）。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "CommonJS (cj)是一个格式引入的node . js t"
+      }
+    ],
+    "sentence": "CommonJS (CJS) is a format introduced by Node.js that allows sharing functionality between isolated JavaScript modules (read more )."
+  },
+  {
+    "word": "introduced",
+    "translation": [
+      {
+        "source": "google",
+        "value": "CONCORJS（CJS）是Node.js介绍的格式，允许在隔离的JavaScript模块之间共享功能（阅读更多）。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "CommonJS (cj)是一个格式引入的node . js t"
+      }
+    ],
+    "sentence": "CommonJS (CJS) is a format introduced by Node.js that allows sharing functionality between isolated JavaScript modules (read more )."
+  },
+  {
+    "word": "syntax",
+    "translation": [
+      { "source": "google", "value": "您可能已经熟悉此语法：" },
+      { "source": "youdaotrans", "value": "您可能已经熟悉这种语法:" }
+    ],
+    "sentence": "You might be already familiar with this syntax:"
+  },
+  {
+    "word": "familiar",
+    "translation": [
+      { "source": "google", "value": "您可能已经熟悉此语法：" },
+      { "source": "youdaotrans", "value": "您可能已经熟悉这种语法:" }
+    ],
+    "sentence": "You might be already familiar with this syntax:"
+  },
+  {
+    "word": "isolated",
+    "translation": [
+      {
+        "source": "google",
+        "value": "CONCORJS（CJS）是Node.js介绍的格式，允许在隔离的JavaScript模块之间共享功能（阅读更多）。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "CommonJS (cj)是一个格式引入的node . js t"
+      }
+    ],
+    "sentence": "CommonJS (CJS) is a format introduced by Node.js that allows sharing functionality between isolated JavaScript modules (read more )."
+  },
+  {
+    "word": "compatible",
+    "translation": [
+      {
+        "source": "google",
+        "value": "本指南有助于解释ES模块是什么以及如何使NUXT应用程序（或上游库）与ESM兼容。"
+      },
+      { "source": "youdaotrans", "value": "本指南解释了ES模块和h" }
+    ],
+    "sentence": "This guide helps explain what ES Modules are and how to make a Nuxt app (or upstream library) compatible with ESM."
+  },
+  {
+    "word": "upstream library",
+    "translation": [
+      {
+        "source": "google",
+        "value": "本指南有助于解释ES模块是什么以及如何使NUXT应用程序（或上游库）与ESM兼容。"
+      },
+      { "source": "youdaotrans", "value": "本指南解释了ES模块和h" }
+    ],
+    "sentence": "This guide helps explain what ES Modules are and how to make a Nuxt app (or upstream library) compatible with ESM."
+  },
+  {
+    "word": "explain",
+    "translation": [
+      {
+        "source": "google",
+        "value": "本指南有助于解释ES模块是什么以及如何使NUXT应用程序（或上游库）与ESM兼容。"
+      },
+      { "source": "youdaotrans", "value": "本指南解释了ES模块和h" }
+    ],
+    "sentence": "This guide helps explain what ES Modules are and how to make a Nuxt app (or upstream library) compatible with ESM."
+  },
+  {
+    "word": "opportunity",
+    "translation": [
+      { "source": "google", "value": "每个人都有机会开发模块。" },
+      { "source": "youdaotrans", "value": "每个人都有机会开发模块。" }
+    ],
+    "sentence": "Everyone has the opportunity to develop modules."
+  },
+  {
+    "word": "deprecated",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT模块现在仅构建时间，并且NUXT 2中使用的构建模块属性被弃用以支持模块。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "现在build-time-only Nuxt模块,以及成矿"
+      }
+    ],
+    "sentence": "Nuxt modules are now build-time-only, and the buildModules property used in Nuxt 2 is deprecated in favor of modules."
+  },
+  {
+    "word": "in favor of",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT模块现在仅构建时间，并且NUXT 2中使用的构建模块属性被弃用以支持模块。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "现在build-time-only Nuxt模块,以及成矿"
+      }
+    ],
+    "sentence": "Nuxt modules are now build-time-only, and the buildModules property used in Nuxt 2 is deprecated in favor of modules."
+  },
+  {
+    "word": "additional",
+    "translation": [
+      {
+        "source": "google",
+        "value": "模块开发人员通常提供使用其他步骤和详细信息。"
+      },
+      { "source": "youdaotrans", "value": "模块开发人员通常提供额外的步骤" }
+    ],
+    "sentence": "Modules developers usually provide additional steps and details for usage."
+  },
+  {
+    "word": "add-ons",
+    "translation": [
+      {
+        "source": "google",
+        "value": "这使得他们可以在各个项目中重复使用并与社区共享，从而帮助创建一个高质量的附加组件。"
+      },
+      { "source": "youdaotrans", "value": "这使他们在穿越被重用" }
+    ],
+    "sentence": "This makes it possible for them to be reused across projects and shared with the community, helping create an ecosystem of high-quality add-ons."
+  },
+  {
+    "word": "ecosystem",
+    "translation": [
+      {
+        "source": "google",
+        "value": "这使得他们可以在各个项目中重复使用并与社区共享，从而帮助创建一个高质量的附加组件。"
+      },
+      { "source": "youdaotrans", "value": "这使他们在穿越被重用" }
+    ],
+    "sentence": "This makes it possible for them to be reused across projects and shared with the community, helping create an ecosystem of high-quality add-ons."
+  },
+  {
+    "word": "high-quality",
+    "translation": [
+      {
+        "source": "google",
+        "value": "这使得他们可以在各个项目中重复使用并与社区共享，从而帮助创建一个高质量的附加组件。"
+      },
+      { "source": "youdaotrans", "value": "这使他们在穿越被重用" }
+    ],
+    "sentence": "This makes it possible for them to be reused across projects and shared with the community, helping create an ecosystem of high-quality add-ons."
+  },
+  {
+    "word": "Best of all",
+    "translation": [
+      {
+        "source": "google",
+        "value": "最重要的是，NUXT模块可以在NPM软件包中分发。"
+      },
+      { "source": "youdaotrans", "value": "最重要的是,可以分布在np Nuxt模块" }
+    ],
+    "sentence": "Best of all, Nuxt modules can be distributed in npm packages."
+  },
+  {
+    "word": "perform",
+    "translation": [
+      {
+        "source": "google",
+        "value": "他们可以覆盖模板，配置WebPack加载程序，添加CSS库，并执行许多其他有用的任务。"
+      },
+      { "source": "youdaotrans", "value": "他们可以覆盖模板,配置webpack贷款" }
+    ],
+    "sentence": "They can override templates, configure webpack loaders, add CSS libraries, and perform many other useful tasks."
+  },
+  {
+    "word": "override",
+    "translation": [
+      {
+        "source": "google",
+        "value": "他们可以覆盖模板，配置WebPack加载程序，添加CSS库，并执行许多其他有用的任务。"
+      },
+      { "source": "youdaotrans", "value": "他们可以覆盖模板,配置webpack贷款" }
+    ],
+    "sentence": "They can override templates, configure webpack loaders, add CSS libraries, and perform many other useful tasks."
+  },
+  {
+    "word": "sequentially",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT模块是异步函数，在使用Nuxi Dev启动NUXT或使用Nuxi Build的生产项目中启动NUXT时，可以顺序运行。"
+      },
+      { "source": "youdaotrans", "value": "按顺序Nuxt模块异步功能" }
+    ],
+    "sentence": "Nuxt modules are async functions that sequentially run when starting Nuxt in development mode using nuxi dev or building a project for production with nuxi build."
+  },
+  {
+    "word": "repetitive",
+    "translation": [
+      {
+        "source": "google",
+        "value": "可以使用配置选项和插件来扩展NUXT，但是在多个项目中维护这些自定义可能是乏味，重复性和耗时的。"
+      },
+      { "source": "youdaotrans", "value": "Nuxt可以扩展和配置选项" }
+    ],
+    "sentence": "Nuxt can be extended with configuration options and plugins, but maintaining these customizations across multiple projects can be tedious, repetitive and time-consuming."
+  },
+  {
+    "word": "time-consuming",
+    "translation": [
+      {
+        "source": "google",
+        "value": "可以使用配置选项和插件来扩展NUXT，但是在多个项目中维护这些自定义可能是乏味，重复性和耗时的。"
+      },
+      { "source": "youdaotrans", "value": "Nuxt可以扩展和配置选项" }
+    ],
+    "sentence": "Nuxt can be extended with configuration options and plugins, but maintaining these customizations across multiple projects can be tedious, repetitive and time-consuming."
+  },
+  {
+    "word": "configuration",
+    "translation": [
+      {
+        "source": "google",
+        "value": "可以使用配置选项和插件来扩展NUXT，但是在多个项目中维护这些自定义可能是乏味，重复性和耗时的。"
+      },
+      { "source": "youdaotrans", "value": "Nuxt可以扩展和配置选项" }
+    ],
+    "sentence": "Nuxt can be extended with configuration options and plugins, but maintaining these customizations across multiple projects can be tedious, repetitive and time-consuming."
+  },
+  {
+    "word": "extended",
+    "translation": [
+      {
+        "source": "google",
+        "value": "可以使用配置选项和插件来扩展NUXT，但是在多个项目中维护这些自定义可能是乏味，重复性和耗时的。"
+      },
+      { "source": "youdaotrans", "value": "Nuxt可以扩展和配置选项" }
+    ],
+    "sentence": "Nuxt can be extended with configuration options and plugins, but maintaining these customizations across multiple projects can be tedious, repetitive and time-consuming."
+  },
+  {
+    "word": "enough",
+    "translation": [
+      {
+        "source": "google",
+        "value": "在使用NUXT开发生产级应用程序时，您可能会发现该框架的核心功能还不够。"
+      },
+      { "source": "youdaotrans", "value": "在开发生产级应用程序" }
+    ],
+    "sentence": "When developing production-grade applications with Nuxt you might find that the framework&#39;s core functionality is not enough."
+  },
+  {
+    "word": "production-grade",
+    "translation": [
+      {
+        "source": "google",
+        "value": "在使用NUXT开发生产级应用程序时，您可能会发现该框架的核心功能还不够。"
+      },
+      { "source": "youdaotrans", "value": "在开发生产级应用程序" }
+    ],
+    "sentence": "When developing production-grade applications with Nuxt you might find that the framework&#39;s core functionality is not enough."
+  },
+  {
+    "word": "maintain boilerplate",
+    "translation": [
+      {
+        "source": "google",
+        "value": "如果已经有一个NUXT模块，则不需要从头开始开发所有内容或维护样板。"
+      },
+      { "source": "youdaotrans", "value": "你不需要开发一切从头开始" }
+    ],
+    "sentence": "You don&#39;t need to develop everything from scratch or maintain boilerplate if there is already a Nuxt module for it."
+  },
+  {
+    "word": "from scratch",
+    "translation": [
+      {
+        "source": "google",
+        "value": "如果已经有一个NUXT模块，则不需要从头开始开发所有内容或维护样板。"
+      },
+      { "source": "youdaotrans", "value": "你不需要开发一切从头开始" }
+    ],
+    "sentence": "You don&#39;t need to develop everything from scratch or maintain boilerplate if there is already a Nuxt module for it."
+  },
+  {
+    "word": "simplify integrations",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT提供了一个模块系统来扩展框架核心并简化集成。"
+      },
+      { "source": "youdaotrans", "value": "系统扩展framew Nuxt提供一个模块" }
+    ],
+    "sentence": "Nuxt provides a module system to extend the framework core and simplify integrations."
+  },
+  {
+    "word": "drivers",
+    "translation": [
+      {
+        "source": "google",
+        "value": "此外，NUXT实现了本机存储层，支持多源驱动程序和本地资产。"
+      },
+      { "source": "youdaotrans", "value": "此外,Nuxt实现本地存储laye之类" }
+    ],
+    "sentence": "In addition, Nuxt implements a native storage layer, supporting multi-source drivers and local assets."
+  },
+  {
+    "word": "multi-source",
+    "translation": [
+      {
+        "source": "google",
+        "value": "此外，NUXT实现了本机存储层，支持多源驱动程序和本地资产。"
+      },
+      { "source": "youdaotrans", "value": "此外,Nuxt实现本地存储laye之类" }
+    ],
+    "sentence": "In addition, Nuxt implements a native storage layer, supporting multi-source drivers and local assets."
+  },
+  {
+    "word": "storage layer",
+    "translation": [
+      {
+        "source": "google",
+        "value": "此外，NUXT实现了本机存储层，支持多源驱动程序和本地资产。"
+      },
+      { "source": "youdaotrans", "value": "此外,Nuxt实现本地存储laye之类" }
+    ],
+    "sentence": "In addition, Nuxt implements a native storage layer, supporting multi-source drivers and local assets."
+  },
+  {
+    "word": "implements",
+    "translation": [
+      {
+        "source": "google",
+        "value": "此外，NUXT实现了本机存储层，支持多源驱动程序和本地资产。"
+      },
+      { "source": "youdaotrans", "value": "此外,Nuxt实现本地存储laye之类" }
+    ],
+    "sentence": "In addition, Nuxt implements a native storage layer, supporting multi-source drivers and local assets."
+  },
+  {
+    "word": "In addition",
+    "translation": [
+      {
+        "source": "google",
+        "value": "此外，NUXT实现了本机存储层，支持多源驱动程序和本地资产。"
+      },
+      { "source": "youdaotrans", "value": "此外,Nuxt实现本地存储laye之类" }
+    ],
+    "sentence": "In addition, Nuxt implements a native storage layer, supporting multi-source drivers and local assets."
+  },
+  {
+    "word": "fragile",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT 2中的服务器不是独立的，需要NUXT核心的一部分才能通过运行NUXT启动（使用NUXT启动或NUXT发行版）或自定义程序化用法来涉及，这是脆弱的，容易折断，不适合无服务器和服务。 - 工人环境。"
+      },
+      { "source": "youdaotrans", "value": "Nuxt 2中的服务器并不是独立的,需要" }
+    ],
+    "sentence": "The server in Nuxt 2 is not standalone and requires part of Nuxt core to be involved by running nuxt start (with the nuxt-start or nuxt distributions) or custom programmatic usage, which is fragile and prone to breakage and not suitable for serverless and service-worker environments."
+  },
+  {
+    "word": "distributions",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT 2中的服务器不是独立的，需要NUXT核心的一部分才能通过运行NUXT启动（使用NUXT启动或NUXT发行版）或自定义程序化用法来涉及，这是脆弱的，容易折断，不适合无服务器和服务。 - 工人环境。"
+      },
+      { "source": "youdaotrans", "value": "Nuxt 2中的服务器并不是独立的,需要" }
+    ],
+    "sentence": "The server in Nuxt 2 is not standalone and requires part of Nuxt core to be involved by running nuxt start (with the nuxt-start or nuxt distributions) or custom programmatic usage, which is fragile and prone to breakage and not suitable for serverless and service-worker environments."
+  },
+  {
+    "word": "independent",
+    "translation": [
+      {
+        "source": "google",
+        "value": "Nitro生产独立于Node_Modules的独立服务器区域。"
+      },
+      { "source": "youdaotrans", "value": "硝基生产经销的一个独立的服务器" }
+    ],
+    "sentence": "Nitro produces a standalone server dist that is independent of node_modules."
+  },
+  {
+    "word": "standalone",
+    "translation": [
+      {
+        "source": "google",
+        "value": "Nitro生产独立于Node_Modules的独立服务器区域。"
+      },
+      { "source": "youdaotrans", "value": "硝基生产经销的一个独立的服务器" }
+    ],
+    "sentence": "Nitro produces a standalone server dist that is independent of node_modules."
+  },
+  {
+    "word": "produces",
+    "translation": [
+      {
+        "source": "google",
+        "value": "Nitro生产独立于Node_Modules的独立服务器区域。"
+      },
+      { "source": "youdaotrans", "value": "硝基生产经销的一个独立的服务器" }
+    ],
+    "sentence": "Nitro produces a standalone server dist that is independent of node_modules."
+  },
+  {
+    "word": "Standalone Server",
+    "translation": [
+      { "source": "google", "value": "独立服务器" },
+      { "source": "youdaotrans", "value": "独立服务器" }
+    ],
+    "sentence": "Standalone Server"
+  },
+  {
+    "word": "access",
+    "translation": [
+      {
+        "source": "google",
+        "value": "使用$ fetch（）或usefetch（）时，您可以访问这些类型。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "您可以访问这些类型在使用fetch()或美元"
+      }
+    ],
+    "sentence": "You can access these types when using $fetch() or useFetch()."
+  },
+  {
+    "word": "as long as",
+    "translation": [
+      {
+        "source": "google",
+        "value": "使用API路由（或中间件）时，只要您返回值而不是使用res.end（）发送响应，Nitro将生成这些路由的键入。"
+      },
+      { "source": "youdaotrans", "value": "当使用API路线(或中间件),硝基" }
+    ],
+    "sentence": "When using API routes (or middleware), Nitro will generate typings for these routes as long as you are returning a value instead of using res.end() to send a response."
+  },
+  {
+    "word": "raw response",
+    "translation": [
+      {
+        "source": "google",
+        "value": "自动解析JSON响应（如果需要，可以访问原始响应）"
+      },
+      { "source": "youdaotrans", "value": "自动解析JSON响应(t)的访问" }
+    ],
+    "sentence": "Automatic parsing of JSON responses (with access to raw response if needed)"
+  },
+  {
+    "word": "relevant",
+    "translation": [
+      {
+        "source": "google",
+        "value": "如果在浏览器上运行，这将对服务器进行API调用，但是如果在服务器上运行，将直接调用相关函数，并保存附加的API调用。"
+      },
+      { "source": "youdaotrans", "value": "这将使一个API调用服务器上运行" }
+    ],
+    "sentence": "This will make an API call to the server if run on the browser, but will directly call the relevant function if run on the server, saving an additional API call."
+  },
+  {
+    "word": "globally-available",
+    "translation": [
+      {
+        "source": "google",
+        "value": "Nitro允许通过全球可用$提取助手“直接”路由。"
+      },
+      { "source": "youdaotrans", "value": "硝基允许通过gl的直接调用路线" }
+    ],
+    "sentence": "Nitro allows &#39;direct&#39; calling of routes via the globally-available $fetch helper."
+  },
+  {
+    "word": "via",
+    "translation": [
+      {
+        "source": "google",
+        "value": "Nitro允许通过全球可用$提取助手“直接”路由。"
+      },
+      { "source": "youdaotrans", "value": "硝基允许通过gl的直接调用路线" }
+    ],
+    "sentence": "Nitro allows &#39;direct&#39; calling of routes via the globally-available $fetch helper."
+  },
+  {
+    "word": "endpoints",
+    "translation": [
+      {
+        "source": "google",
+        "value": "服务器API端点和中间件是由内部使用H3的Nitro添加的。"
+      },
+      { "source": "youdaotrans", "value": "服务器和中间件API端点添加N" }
+    ],
+    "sentence": "Server API endpoints and Middleware are added by Nitro that internally uses h3 ."
+  },
+  {
+    "word": "chunks",
+    "translation": [
+      { "source": "google", "value": "自动代码分解和异步加载的块。" },
+      { "source": "youdaotrans", "value": "自动代码分隔和async-loaded块。" }
+    ],
+    "sentence": "Automatic code-splitting and async-loaded chunks."
+  },
+  {
+    "word": "further",
+    "translation": [
+      {
+        "source": "google",
+        "value": "Nitro的设计是平台 - 不平衡的，允许在边缘呈现NUXT应用程序，更靠近您的用户，从而可以复制和进一步优化。"
+      },
+      { "source": "youdaotrans", "value": "硝基的设计是平台无关的,并允许任" }
+    ],
+    "sentence": "Nitro&#39;s design is platform-agnostic and allows rendering a Nuxt application at the edge, closer to your users, allowing replication and further optimizations."
+  },
+  {
+    "word": "replication",
+    "translation": [
+      {
+        "source": "google",
+        "value": "Nitro的设计是平台 - 不平衡的，允许在边缘呈现NUXT应用程序，更靠近您的用户，从而可以复制和进一步优化。"
+      },
+      { "source": "youdaotrans", "value": "硝基的设计是平台无关的,并允许任" }
+    ],
+    "sentence": "Nitro&#39;s design is platform-agnostic and allows rendering a Nuxt application at the edge, closer to your users, allowing replication and further optimizations."
+  },
+  {
+    "word": "closer to your users",
+    "translation": [
+      {
+        "source": "google",
+        "value": "Nitro的设计是平台 - 不平衡的，允许在边缘呈现NUXT应用程序，更靠近您的用户，从而可以复制和进一步优化。"
+      },
+      { "source": "youdaotrans", "value": "硝基的设计是平台无关的,并允许任" }
+    ],
+    "sentence": "Nitro&#39;s design is platform-agnostic and allows rendering a Nuxt application at the edge, closer to your users, allowing replication and further optimizations."
+  },
+  {
+    "word": "platform-agnostic",
+    "translation": [
+      {
+        "source": "google",
+        "value": "Nitro的设计是平台 - 不平衡的，允许在边缘呈现NUXT应用程序，更靠近您的用户，从而可以复制和进一步优化。"
+      },
+      { "source": "youdaotrans", "value": "硝基的设计是平台无关的,并允许任" }
+    ],
+    "sentence": "Nitro&#39;s design is platform-agnostic and allows rendering a Nuxt application at the edge, closer to your users, allowing replication and further optimizations."
+  },
+  {
+    "word": "cross-platform",
+    "translation": [
+      {
+        "source": "google",
+        "value": "它为Node.js，Deno，Workers等提供了跨平台支持。"
+      },
+      { "source": "youdaotrans", "value": "它提供了跨平台支持node . js, Deno" }
+    ],
+    "sentence": "It offers cross-platform support for Node.js, Deno, Workers, and more."
+  },
+  {
+    "word": "takes it to another level",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT 3通过直接渲染CDN Edge工人中的代码将其提升到另一个级别，从而降低了延迟和成本。"
+      },
+      { "source": "youdaotrans", "value": "Nuxt直接仁德3把它带到了另一个层面" }
+    ],
+    "sentence": "Nuxt 3 takes it to another level by directly rendering code in CDN edge workers, reducing latency and costs."
+  },
+  {
+    "word": "Traditionally",
+    "translation": [
+      {
+        "source": "google",
+        "value": "传统上，只有使用Node.js才能使用服务器端和通用渲染。"
+      },
+      { "source": "youdaotrans", "value": "传统上,服务器端和普遍呈现" }
+    ],
+    "sentence": "Traditionally, server-side and universal rendering was only possible using Node.js."
+  },
+  {
+    "word": "requires",
+    "translation": [
+      {
+        "source": "google",
+        "value": "每个内容页面都应主要是静态的，并生成一次，但是管理层需要注册，并且行为更像是动态应用程序。"
+      },
+      { "source": "youdaotrans", "value": "每一个内容页应该主要是静态的和" }
+    ],
+    "sentence": "Every content page should be primarily static and generated once, but the admin section requires registration and behaves more like a dynamic application."
+  },
+  {
+    "word": "primarily",
+    "translation": [
+      {
+        "source": "google",
+        "value": "每个内容页面都应主要是静态的，并生成一次，但是管理层需要注册，并且行为更像是动态应用程序。"
+      },
+      { "source": "youdaotrans", "value": "每一个内容页应该主要是静态的和" }
+    ],
+    "sentence": "Every content page should be primarily static and generated once, but the admin section requires registration and behaves more like a dynamic application."
+  },
+  {
+    "word": "various",
+    "translation": [
+      {
+        "source": "google",
+        "value": "但是在各种情况下，可以在构建时间生成某些页面，而另一些则应该是客户端渲染的。"
+      },
+      { "source": "youdaotrans", "value": "但在各种情况下,可能会产生一些页面" }
+    ],
+    "sentence": "But in various cases, some pages could be generated at build time, while others should be client-side rendered."
+  },
+  {
+    "word": "At the moment",
+    "translation": [
+      {
+        "source": "google",
+        "value": "目前，NUXT应用程序的每个页面（或路由）必须使用相同的渲染模式，客户端或通用。"
+      },
+      { "source": "youdaotrans", "value": "目前,每一页Nuxt应用程序(或路线)" }
+    ],
+    "sentence": "At the moment, every page (or route) of a Nuxt application must use the same rendering mode, client-side or universal."
+  },
+  {
+    "word": "per",
+    "translation": [
+      {
+        "source": "google",
+        "value": "混合渲染允许每条路线不同的缓存规则，并决定服务器应如何响应给定URL上的新请求。"
+      },
+      { "source": "youdaotrans", "value": "pe混合呈现允许不同的缓存规则" }
+    ],
+    "sentence": "Hybrid rendering allows different caching rules per route and decides how the Server should respond to a new request on a given URL."
+  },
+  {
+    "word": "respond",
+    "translation": [
+      {
+        "source": "google",
+        "value": "混合渲染允许每条路线不同的缓存规则，并决定服务器应如何响应给定URL上的新请求。"
+      },
+      { "source": "youdaotrans", "value": "pe混合呈现允许不同的缓存规则" }
+    ],
+    "sentence": "Hybrid rendering allows different caching rules per route and decides how the Server should respond to a new request on a given URL."
+  },
+  {
+    "word": "strategies",
+    "translation": [
+      {
+        "source": "google",
+        "value": "客户端和通用渲染是在浏览器中显示接口的不同策略。"
+      },
+      { "source": "youdaotrans", "value": "客户端和普遍呈现是不同的" }
+    ],
+    "sentence": "Client-side and universal rendering are different strategies to display an interface in a browser."
+  },
+  {
+    "word": "performed",
+    "translation": [
+      {
+        "source": "google",
+        "value": "在大多数情况下，NUXT 2中执行的通用渲染提供了良好的用户和开发人员体验。"
+      },
+      { "source": "youdaotrans", "value": "在大多数情况下,普遍呈现中执行" }
+    ],
+    "sentence": "In most cases, universal rendering as performed in Nuxt 2 offers a good user and developer experience."
+  },
+  {
+    "word": "display an interface",
+    "translation": [
+      {
+        "source": "google",
+        "value": "客户端和通用渲染是在浏览器中显示接口的不同策略。"
+      },
+      { "source": "youdaotrans", "value": "客户端和普遍呈现是不同的" }
+    ],
+    "sentence": "Client-side and universal rendering are different strategies to display an interface in a browser."
+  },
+  {
+    "word": "marketplaces",
+    "translation": [
+      {
+        "source": "google",
+        "value": "通用渲染非常通用，几乎可以适合任何用例，并且特别适合任何面向内容的网站：博客，营销网站，投资组合，电子商务网站和市场。"
+      },
+      { "source": "youdaotrans", "value": "普遍呈现非常多才多艺,可以适应" }
+    ],
+    "sentence": "Universal rendering is very versatile and can fit almost any use case, and is especially appropriate for any content-oriented websites: blogs, marketing websites, portfolios, e-commerce sites, and marketplaces."
+  },
+  {
+    "word": "e-commerce",
+    "translation": [
+      {
+        "source": "google",
+        "value": "通用渲染非常通用，几乎可以适合任何用例，并且特别适合任何面向内容的网站：博客，营销网站，投资组合，电子商务网站和市场。"
+      },
+      { "source": "youdaotrans", "value": "普遍呈现非常多才多艺,可以适应" }
+    ],
+    "sentence": "Universal rendering is very versatile and can fit almost any use case, and is especially appropriate for any content-oriented websites: blogs, marketing websites, portfolios, e-commerce sites, and marketplaces."
+  },
+  {
+    "word": "marketing",
+    "translation": [
+      {
+        "source": "google",
+        "value": "通用渲染非常通用，几乎可以适合任何用例，并且特别适合任何面向内容的网站：博客，营销网站，投资组合，电子商务网站和市场。"
+      },
+      { "source": "youdaotrans", "value": "普遍呈现非常多才多艺,可以适应" }
+    ],
+    "sentence": "Universal rendering is very versatile and can fit almost any use case, and is especially appropriate for any content-oriented websites: blogs, marketing websites, portfolios, e-commerce sites, and marketplaces."
+  },
+  {
+    "word": "portfolios",
+    "translation": [
+      {
+        "source": "google",
+        "value": "通用渲染非常通用，几乎可以适合任何用例，并且特别适合任何面向内容的网站：博客，营销网站，投资组合，电子商务网站和市场。"
+      },
+      { "source": "youdaotrans", "value": "普遍呈现非常多才多艺,可以适应" }
+    ],
+    "sentence": "Universal rendering is very versatile and can fit almost any use case, and is especially appropriate for any content-oriented websites: blogs, marketing websites, portfolios, e-commerce sites, and marketplaces."
+  },
+  {
+    "word": "fit almost",
+    "translation": [
+      {
+        "source": "google",
+        "value": "通用渲染非常通用，几乎可以适合任何用例，并且特别适合任何面向内容的网站：博客，营销网站，投资组合，电子商务网站和市场。"
+      },
+      { "source": "youdaotrans", "value": "普遍呈现非常多才多艺,可以适应" }
+    ],
+    "sentence": "Universal rendering is very versatile and can fit almost any use case, and is especially appropriate for any content-oriented websites: blogs, marketing websites, portfolios, e-commerce sites, and marketplaces."
+  },
+  {
+    "word": "fit",
+    "translation": [
+      {
+        "source": "google",
+        "value": "通用渲染非常通用，几乎可以适合任何用例，并且特别适合任何面向内容的网站：博客，营销网站，投资组合，电子商务网站和市场。"
+      },
+      { "source": "youdaotrans", "value": "普遍呈现非常多才多艺,可以适应" }
+    ],
+    "sentence": "Universal rendering is very versatile and can fit almost any use case, and is especially appropriate for any content-oriented websites: blogs, marketing websites, portfolios, e-commerce sites, and marketplaces."
+  },
+  {
+    "word": "versatile",
+    "translation": [
+      {
+        "source": "google",
+        "value": "通用渲染非常通用，几乎可以适合任何用例，并且特别适合任何面向内容的网站：博客，营销网站，投资组合，电子商务网站和市场。"
+      },
+      { "source": "youdaotrans", "value": "普遍呈现非常多才多艺,可以适应" }
+    ],
+    "sentence": "Universal rendering is very versatile and can fit almost any use case, and is especially appropriate for any content-oriented websites: blogs, marketing websites, portfolios, e-commerce sites, and marketplaces."
+  },
+  {
+    "word": "taking over",
+    "translation": [
+      {
+        "source": "google",
+        "value": "但是，由于浏览器接管客户端导航的通用渲染，服务器调用将大大降低。"
+      },
+      { "source": "youdaotrans", "value": "然而,服务器调用高度降低了谢谢" }
+    ],
+    "sentence": "However, the server calls are highly reduced thanks to universal rendering with the browser taking over on client-side navigation."
+  },
+  {
+    "word": "executed",
+    "translation": [
+      {
+        "source": "google",
+        "value": "幸运的是，NUXT提供了指南和特定变量，以帮助您确定执行一块代码的位置。"
+      },
+      { "source": "youdaotrans", "value": "幸运的是,Nuxt提供了指导方针和具体" }
+    ],
+    "sentence": "Fortunately, Nuxt provides guidelines and specific variables to help you determine where a piece of code is executed."
+  },
+  {
+    "word": "specific",
+    "translation": [
+      {
+        "source": "google",
+        "value": "幸运的是，NUXT提供了指南和特定变量，以帮助您确定执行一块代码的位置。"
+      },
+      { "source": "youdaotrans", "value": "幸运的是,Nuxt提供了指导方针和具体" }
+    ],
+    "sentence": "Fortunately, Nuxt provides guidelines and specific variables to help you determine where a piece of code is executed."
+  },
+  {
+    "word": "guidelines",
+    "translation": [
+      {
+        "source": "google",
+        "value": "幸运的是，NUXT提供了指南和特定变量，以帮助您确定执行一块代码的位置。"
+      },
+      { "source": "youdaotrans", "value": "幸运的是,Nuxt提供了指导方针和具体" }
+    ],
+    "sentence": "Fortunately, Nuxt provides guidelines and specific variables to help you determine where a piece of code is executed."
+  },
+  {
+    "word": "Fortunately",
+    "translation": [
+      {
+        "source": "google",
+        "value": "幸运的是，NUXT提供了指南和特定变量，以帮助您确定执行一块代码的位置。"
+      },
+      { "source": "youdaotrans", "value": "幸运的是,Nuxt提供了指导方针和具体" }
+    ],
+    "sentence": "Fortunately, Nuxt provides guidelines and specific variables to help you determine where a piece of code is executed."
+  },
+  {
+    "word": "on both sides seamlessly",
+    "translation": [
+      {
+        "source": "google",
+        "value": "开发约束：服务器和浏览器环境不提供相同的API，并且编写可以无缝运行的代码可能很棘手。"
+      },
+      { "source": "youdaotrans", "value": "enviro发展约束:服务器和浏览器" }
+    ],
+    "sentence": "Development constraints: Server and browser environments don&#39;t provide the same APIs, and it can be tricky to write code that can run on both sides seamlessly."
+  },
+  {
+    "word": "constraints",
+    "translation": [
+      {
+        "source": "google",
+        "value": "开发约束：服务器和浏览器环境不提供相同的API，并且编写可以无缝运行的代码可能很棘手。"
+      },
+      { "source": "youdaotrans", "value": "enviro发展约束:服务器和浏览器" }
+    ],
+    "sentence": "Development constraints: Server and browser environments don&#39;t provide the same APIs, and it can be tricky to write code that can run on both sides seamlessly."
+  },
+  {
+    "word": "directly",
+    "translation": [
+      {
+        "source": "google",
+        "value": "Web Crawlers可以直接索引页面的内容，这使通用渲染是您要快速索引的任何内容的绝佳选择。"
+      },
+      { "source": "youdaotrans", "value": "网络爬虫可以直接索引页面的内容" }
+    ],
+    "sentence": "Web crawlers can directly index the page&#39;s content, which makes Universal rendering a great choice for any content that you want to index quickly."
+  },
+  {
+    "word": "entire",
+    "translation": [
+      {
+        "source": "google",
+        "value": "搜索引擎优化：通用渲染将页面的整个HTML内容作为经典服务器应用程序提供给浏览器。"
+      },
+      { "source": "youdaotrans", "value": "搜索引擎优化:普遍呈现de" }
+    ],
+    "sentence": "Search Engine Optimization: Universal rendering delivers the entire HTML content of the page to the browser as a classic server application."
+  },
+  {
+    "word": "delivers",
+    "translation": [
+      {
+        "source": "google",
+        "value": "搜索引擎优化：通用渲染将页面的整个HTML内容作为经典服务器应用程序提供给浏览器。"
+      },
+      { "source": "youdaotrans", "value": "搜索引擎优化:普遍呈现de" }
+    ],
+    "sentence": "Search Engine Optimization: Universal rendering delivers the entire HTML content of the page to the browser as a classic server application."
+  },
+  {
+    "word": "without overhead",
+    "translation": [
+      {
+        "source": "google",
+        "value": "此外，由于HTML文档中的内容已经存在，因此爬行者可以在没有开销的情况下进行索引。"
+      },
+      { "source": "youdaotrans", "value": "此外,内容已经存在" }
+    ],
+    "sentence": "Furthermore, as the content is already present in the HTML document, crawlers can index it without overhead."
+  },
+  {
+    "word": "already",
+    "translation": [
+      {
+        "source": "google",
+        "value": "此外，由于HTML文档中的内容已经存在，因此爬行者可以在没有开销的情况下进行索引。"
+      },
+      { "source": "youdaotrans", "value": "此外,内容已经存在" }
+    ],
+    "sentence": "Furthermore, as the content is already present in the HTML document, crawlers can index it without overhead."
+  },
+  {
+    "word": "Furthermore",
+    "translation": [
+      {
+        "source": "google",
+        "value": "此外，由于HTML文档中的内容已经存在，因此爬行者可以在没有开销的情况下进行索引。"
+      },
+      { "source": "youdaotrans", "value": "此外,内容已经存在" }
+    ],
+    "sentence": "Furthermore, as the content is already present in the HTML document, crawlers can index it without overhead."
+  },
+  {
+    "word": "while",
+    "translation": [
+      {
+        "source": "google",
+        "value": "通用渲染允许NUXT应用程序提供快速的页面加载时间，同时保留客户端渲染的好处。"
+      },
+      { "source": "youdaotrans", "value": "普遍呈现应用程序允许Nuxt p" }
+    ],
+    "sentence": "Universal rendering allows a Nuxt application to provide quick page load times while preserving the benefits of client-side rendering."
+  },
+  {
+    "word": "benefits",
+    "translation": [
+      {
+        "source": "google",
+        "value": "通用渲染允许NUXT应用程序提供快速的页面加载时间，同时保留客户端渲染的好处。"
+      },
+      { "source": "youdaotrans", "value": "普遍呈现应用程序允许Nuxt p" }
+    ],
+    "sentence": "Universal rendering allows a Nuxt application to provide quick page load times while preserving the benefits of client-side rendering."
+  },
+  {
+    "word": "preserving",
+    "translation": [
+      {
+        "source": "google",
+        "value": "通用渲染允许NUXT应用程序提供快速的页面加载时间，同时保留客户端渲染的好处。"
+      },
+      { "source": "youdaotrans", "value": "普遍呈现应用程序允许Nuxt p" }
+    ],
+    "sentence": "Universal rendering allows a Nuxt application to provide quick page load times while preserving the benefits of client-side rendering."
+  },
+  {
+    "word": "enables",
+    "translation": [
+      {
+        "source": "google",
+        "value": "浏览器再次解释它（因此通用渲染），Vue.js控制文档并实现交互性。"
+      },
+      { "source": "youdaotrans", "value": "浏览器解释一遍(因此普遍r" }
+    ],
+    "sentence": "The browser interprets it again (hence Universal rendering) and Vue.js takes control of the document and enables interactivity."
+  },
+  {
+    "word": "interactivity",
+    "translation": [
+      {
+        "source": "google",
+        "value": "浏览器再次解释它（因此通用渲染），Vue.js控制文档并实现交互性。"
+      },
+      { "source": "youdaotrans", "value": "浏览器解释一遍(因此普遍r" }
+    ],
+    "sentence": "The browser interprets it again (hence Universal rendering) and Vue.js takes control of the document and enables interactivity."
+  },
+  {
+    "word": "in the background",
+    "translation": [
+      {
+        "source": "google",
+        "value": "为了不失去客户端渲染方法的好处，例如动态接口和页面过渡，客户端将在下载HTML文档后，在后台上运行的JavaScript代码。"
+      },
+      { "source": "youdaotrans", "value": "不失去客户端渲染的好处" }
+    ],
+    "sentence": "To not lose the benefits of the client-side rendering method, such as dynamic interfaces and pages transitions, the Client loads the javascript code that runs on the Server in the background once the HTML document has been downloaded."
+  },
+  {
+    "word": "interprets",
+    "translation": [
+      {
+        "source": "google",
+        "value": "浏览器再次解释它（因此通用渲染），Vue.js控制文档并实现交互性。"
+      },
+      { "source": "youdaotrans", "value": "浏览器解释一遍(因此普遍r" }
+    ],
+    "sentence": "The browser interprets it again (hence Universal rendering) and Vue.js takes control of the document and enables interactivity."
+  },
+  {
+    "word": "immediately",
+    "translation": [
+      {
+        "source": "google",
+        "value": "用户立即获取我们应用程序的内容，与客户端渲染相反。"
+      },
+      { "source": "youdaotrans", "value": "用户立即得到应用的内容" }
+    ],
+    "sentence": "Users immediately get the content of our application, contrary to client-side rendering."
+  },
+  {
+    "word": "at some point",
+    "translation": [
+      {
+        "source": "google",
+        "value": "该页面是否已提前生成，缓存或即时渲染，在某个时候，NUXT在服务器环境中运行了JavaScript（vue.js）代码，并生成HTML文档。"
+      },
+      { "source": "youdaotrans", "value": "是否提前生成页面" }
+    ],
+    "sentence": "Whether the page has been generated in advance and cached or is rendered on the fly, at some point, Nuxt has run the JavaScript (Vue.js) code in a server environment, producing an HTML document."
+  },
+  {
+    "word": "advance",
+    "translation": [
+      {
+        "source": "google",
+        "value": "该页面是否已提前生成，缓存或即时渲染，在某个时候，NUXT在服务器环境中运行了JavaScript（vue.js）代码，并生成HTML文档。"
+      },
+      { "source": "youdaotrans", "value": "是否提前生成页面" }
+    ],
+    "sentence": "Whether the page has been generated in advance and cached or is rendered on the fly, at some point, Nuxt has run the JavaScript (Vue.js) code in a server environment, producing an HTML document."
+  },
+  {
+    "word": "Whether",
+    "translation": [
+      {
+        "source": "google",
+        "value": "该页面是否已提前生成，缓存或即时渲染，在某个时候，NUXT在服务器环境中运行了JavaScript（vue.js）代码，并生成HTML文档。"
+      },
+      { "source": "youdaotrans", "value": "是否提前生成页面" }
+    ],
+    "sentence": "Whether the page has been generated in advance and cached or is rendered on the fly, at some point, Nuxt has run the JavaScript (Vue.js) code in a server environment, producing an HTML document."
+  },
+  {
+    "word": "Universal Rendering",
+    "translation": [
+      { "source": "google", "value": "通用渲染" },
+      { "source": "youdaotrans", "value": "普遍呈现" }
+    ],
+    "sentence": "Universal Rendering"
+  },
+  {
+    "word": "subsequent",
+    "translation": [
+      {
+        "source": "google",
+        "value": "它可以利用浏览器缓存来跳过后续访问，例如SaaS，后台应用程序或在线游戏中的下载阶段。"
+      },
+      { "source": "youdaotrans", "value": "跳过downlo可以利用浏览器缓存" }
+    ],
+    "sentence": "It can leverage browser caching to skip the download phase on subsequent visits, such as SaaS, back-office applications, or online games."
+  },
+  {
+    "word": "phase",
+    "translation": [
+      {
+        "source": "google",
+        "value": "它可以利用浏览器缓存来跳过后续访问，例如SaaS，后台应用程序或在线游戏中的下载阶段。"
+      },
+      { "source": "youdaotrans", "value": "跳过downlo可以利用浏览器缓存" }
+    ],
+    "sentence": "It can leverage browser caching to skip the download phase on subsequent visits, such as SaaS, back-office applications, or online games."
+  },
+  {
+    "word": "leverage",
+    "translation": [
+      {
+        "source": "google",
+        "value": "它可以利用浏览器缓存来跳过后续访问，例如SaaS，后台应用程序或在线游戏中的下载阶段。"
+      },
+      { "source": "youdaotrans", "value": "跳过downlo可以利用浏览器缓存" }
+    ],
+    "sentence": "It can leverage browser caching to skip the download phase on subsequent visits, such as SaaS, back-office applications, or online games."
+  },
+  {
+    "word": "heavily",
+    "translation": [
+      {
+        "source": "google",
+        "value": "客户端渲染是不需要索引或用户经常访问的重大交互性Web应用程序的理想选择。"
+      },
+      { "source": "youdaotrans", "value": "大量客户端渲染是一个很好的选择" }
+    ],
+    "sentence": "Client-side rendering is a good choice for heavily interactive web applications that don&#39;t need indexing or whose users visit frequently."
+  },
+  {
+    "word": "choice",
+    "translation": [
+      {
+        "source": "google",
+        "value": "客户端渲染是不需要索引或用户经常访问的重大交互性Web应用程序的理想选择。"
+      },
+      { "source": "youdaotrans", "value": "大量客户端渲染是一个很好的选择" }
+    ],
+    "sentence": "Client-side rendering is a good choice for heavily interactive web applications that don&#39;t need indexing or whose users visit frequently."
+  },
+  {
+    "word": "content",
+    "translation": [
+      {
+        "source": "google",
+        "value": "您的内容将花费更多时间在纯客户端渲染中显示和更新搜索结果页面。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "你的内容需要更多的时间来显示和updat"
+      }
+    ],
+    "sentence": "Your content will take more time to show and update in search results pages with pure client-side rendering."
+  },
+  {
+    "word": "crawlers",
+    "translation": [
+      {
+        "source": "google",
+        "value": "这与我们讨论的性能弊端有关，因为搜索引擎爬网不会等待界面在他们的第一个尝试索引页面上完全渲染。"
+      },
+      { "source": "youdaotrans", "value": "这是有关性能缺点我们说" }
+    ],
+    "sentence": "This is related to the performance drawback we discussed, as search engine crawlers won&#39;t wait for the interface to be fully rendered on their first try to index the page."
+  },
+  {
+    "word": "discussed",
+    "translation": [
+      {
+        "source": "google",
+        "value": "这与我们讨论的性能弊端有关，因为搜索引擎爬网不会等待界面在他们的第一个尝试索引页面上完全渲染。"
+      },
+      { "source": "youdaotrans", "value": "这是有关性能缺点我们说" }
+    ],
+    "sentence": "This is related to the performance drawback we discussed, as search engine crawlers won&#39;t wait for the interface to be fully rendered on their first try to index the page."
+  },
+  {
+    "word": "related",
+    "translation": [
+      {
+        "source": "google",
+        "value": "这与我们讨论的性能弊端有关，因为搜索引擎爬网不会等待界面在他们的第一个尝试索引页面上完全渲染。"
+      },
+      { "source": "youdaotrans", "value": "这是有关性能缺点我们说" }
+    ],
+    "sentence": "This is related to the performance drawback we discussed, as search engine crawlers won&#39;t wait for the interface to be fully rendered on their first try to index the page."
+  },
+  {
+    "word": "Optimization",
+    "translation": [
+      {
+        "source": "google",
+        "value": "搜索引擎优化：与服务器渲染的HTML文档相比，通过客户端渲染交付的内容索引和更新的内容需要更多的时间。"
+      },
+      { "source": "youdaotrans", "value": "搜索引擎优化:索引和更新" }
+    ],
+    "sentence": "Search Engine Optimization: Indexing and updating the content delivered via client-side rendering takes more time than with a server-rendered HTML document."
+  },
+  {
+    "word": "impact",
+    "translation": [
+      {
+        "source": "google",
+        "value": "根据下载部分的网络以及用户的解析和执行设备，这可能需要一些时间并影响用户的体验。"
+      },
+      { "source": "youdaotrans", "value": "根据网络的下载部分" }
+    ],
+    "sentence": "Depending on the network for the download part and the user&#39;s device for the parsing and execution, this can take some time and impact the user&#39;s experience."
+  },
+  {
+    "word": "execution",
+    "translation": [
+      {
+        "source": "google",
+        "value": "根据下载部分的网络以及用户的解析和执行设备，这可能需要一些时间并影响用户的体验。"
+      },
+      { "source": "youdaotrans", "value": "根据网络的下载部分" }
+    ],
+    "sentence": "Depending on the network for the download part and the user&#39;s device for the parsing and execution, this can take some time and impact the user&#39;s experience."
+  },
+  {
+    "word": "device",
+    "translation": [
+      {
+        "source": "google",
+        "value": "根据下载部分的网络以及用户的解析和执行设备，这可能需要一些时间并影响用户的体验。"
+      },
+      { "source": "youdaotrans", "value": "根据网络的下载部分" }
+    ],
+    "sentence": "Depending on the network for the download part and the user&#39;s device for the parsing and execution, this can take some time and impact the user&#39;s experience."
+  },
+  {
+    "word": "nicely",
+    "translation": [
+      {
+        "source": "google",
+        "value": "离线：由于代码完全在浏览器中运行，因此在互联网不可用时可以很好地继续工作。"
+      },
+      { "source": "youdaotrans", "value": "离线:因为完全在浏览器中运行的代码" }
+    ],
+    "sentence": "Offline: Because code entirely runs in the browser, it can nicely keep working while the internet is unavailable."
+  },
+  {
+    "word": "entirely",
+    "translation": [
+      {
+        "source": "google",
+        "value": "离线：由于代码完全在浏览器中运行，因此在互联网不可用时可以很好地继续工作。"
+      },
+      { "source": "youdaotrans", "value": "离线:因为完全在浏览器中运行的代码" }
+    ],
+    "sentence": "Offline: Because code entirely runs in the browser, it can nicely keep working while the internet is unavailable."
+  },
+  {
+    "word": "cost",
+    "translation": [
+      {
+        "source": "google",
+        "value": "便宜：运行服务器会增加基础架构成本，因为您需要在支持JavaScript的平台上运行。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "便宜:运行一个服务器添加一个infrastru成本"
+      }
+    ],
+    "sentence": "Cheaper: Running a server adds a cost of infrastructure as you would need to run on a platform that supports JavaScript."
+  },
+  {
+    "word": "infrastructure",
+    "translation": [
+      {
+        "source": "google",
+        "value": "便宜：运行服务器会增加基础架构成本，因为您需要在支持JavaScript的平台上运行。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "便宜:运行一个服务器添加一个infrastru成本"
+      }
+    ],
+    "sentence": "Cheaper: Running a server adds a cost of infrastructure as you would need to run on a platform that supports JavaScript."
+  },
+  {
+    "word": "technique",
+    "translation": [
+      {
+        "source": "google",
+        "value": "尽管该技术允许通过平稳的页面过渡构建复杂而动态的UI，但它具有不同的优点和缺点："
+      },
+      { "source": "youdaotrans", "value": "而这种技术允许构建复杂和d" }
+    ],
+    "sentence": "While this technique allows building complex and dynamic UIs with smooth page transitions, it has different pros and cons:"
+  },
+  {
+    "word": "interactive",
+    "translation": [
+      { "source": "google", "value": "交互的" },
+      { "source": "youdaotrans", "value": "互动" }
+    ],
+    "sentence": ""
+  },
+  {
+    "word": "instructions",
+    "translation": [
+      {
+        "source": "google",
+        "value": "然后，vue.js在浏览器下载后生成HTML元素并解析包含指令创建当前接口的所有JavaScript代码。"
+      },
+      { "source": "youdaotrans", "value": "然后,Vue.js生成HTML元素后,兄弟" }
+    ],
+    "sentence": "Then, Vue.js generates HTML elements after the browser downloads and parses all the JavaScript code containing the instructions to create the current interface."
+  },
+  {
+    "word": "traditional",
+    "translation": [
+      {
+        "source": "google",
+        "value": "开箱即用，在浏览器（或客户端）中渲染了传统的vue.js应用程序。"
+      },
+      { "source": "youdaotrans", "value": "开箱即用的,传统的Vue.js应用程序" }
+    ],
+    "sentence": "Out of the box, a traditional Vue.js application is rendered in the browser (or client)."
+  },
+  {
+    "word": "Out of the box",
+    "translation": [
+      {
+        "source": "google",
+        "value": "开箱即用，在浏览器（或客户端）中渲染了传统的vue.js应用程序。"
+      },
+      { "source": "youdaotrans", "value": "开箱即用的,传统的Vue.js应用程序" }
+    ],
+    "sentence": "Out of the box, a traditional Vue.js application is rendered in the browser (or client)."
+  },
+  {
+    "word": "pros and cons",
+    "translation": [
+      {
+        "source": "google",
+        "value": "这两种方法具有我们将在本节中介绍的利弊。"
+      },
+      { "source": "youdaotrans", "value": "这两种方法有优点和缺点,我们会的" }
+    ],
+    "sentence": "The two approaches have pros and cons that we will cover in this section."
+  },
+  {
+    "word": "universal",
+    "translation": [
+      { "source": "google", "value": "NUXT支持客户端和通用渲染。" },
+      { "source": "youdaotrans", "value": "Nuxt支持客户端和普遍的仁德" }
+    ],
+    "sentence": "Nuxt supports both client-side and universal rendering."
+  },
+  {
+    "word": "euler",
+    "translation": [
+      { "source": "google", "value": "欧拉" },
+      { "source": "youdaotrans", "value": "欧拉" }
+    ],
+    "sentence": ""
+  },
+  {
+    "word": "stunning",
+    "translation": [
+      { "source": "google", "value": "您是否曾经想创建令人惊叹的3D网站？" },
+      { "source": "youdaotrans", "value": "你有没有想要创造惊人的3 d网站" }
+    ],
+    "sentence": "Have you ever wanted to create stunning 3D websites?"
+  },
+  {
+    "word": "detected",
+    "translation": [
+      {
+        "source": "google",
+        "value": "由于GamePad API的工作原理，因此您必须在检测到游戏板之前与页面进行交互。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "由于手柄的API是如何工作的,你必须interac"
+      }
+    ],
+    "sentence": "Due to how the Gamepad API works, you must interact with the page using the gamepad before it will be detected."
+  },
+  {
+    "word": "interact",
+    "translation": [
+      {
+        "source": "google",
+        "value": "由于GamePad API的工作原理，因此您必须在检测到游戏板之前与页面进行交互。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "由于手柄的API是如何工作的,你必须interac"
+      }
+    ],
+    "sentence": "Due to how the Gamepad API works, you must interact with the page using the gamepad before it will be detected."
+  },
+  {
+    "word": "Register",
+    "translation": [
+      {
+        "source": "google",
+        "value": "使用AddEventListener在安装上使用AddEventListener进行注册，然后在未填充上自动删除EmplyEventListener。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "寄存器使用addEventListener安装和再保险"
+      }
+    ],
+    "sentence": "Register using addEventListener on mounted, and removeEventListener automatically on unmounted."
+  },
+  {
+    "word": "interface",
+    "translation": [
+      {
+        "source": "google",
+        "value": "有时，函数可能具有多个参数，在这种情况下，您可能需要创建一个新的接口，以将所有接口合并到组件道具的单个接口中。"
+      },
+      { "source": "youdaotrans", "value": "有时一个函数可能有多个参数," }
+    ],
+    "sentence": "Sometimes a function may have multiple parameters, in that case, you maybe need to create a new interface to merge all the interfaces into a single interface for the component props."
+  },
+  {
+    "word": "parameters",
+    "translation": [
+      {
+        "source": "google",
+        "value": "有时，函数可能具有多个参数，在这种情况下，您可能需要创建一个新的接口，以将所有接口合并到组件道具的单个接口中。"
+      },
+      { "source": "youdaotrans", "value": "有时一个函数可能有多个参数," }
+    ],
+    "sentence": "Sometimes a function may have multiple parameters, in that case, you maybe need to create a new interface to merge all the interfaces into a single interface for the component props."
+  },
+  {
+    "word": "Wrap",
+    "translation": [
+      {
+        "source": "google",
+        "value": "将道具包裹在反应性中，以轻松将它们作为道具传递到插槽"
+      },
+      { "source": "youdaotrans", "value": "包装反应很容易通过他们的道具" }
+    ],
+    "sentence": "Wrap the props in reactive to easily pass them as props to the slot"
+  },
+  {
+    "word": "variable",
+    "translation": [
+      {
+        "source": "google",
+        "value": "将返回状态存储在变量中，因为必须将其返回两次，一次在返回中，一次在承诺中。"
+      },
+      { "source": "youdaotrans", "value": "返回状态存储在一个变量,因为它必须" }
+    ],
+    "sentence": "Store the return state in a variable as it must be returned twice, once in the return and once in the promise."
+  },
+  {
+    "word": "intersection",
+    "translation": [
+      {
+        "source": "google",
+        "value": "返回类型应该是返回类型和正当类型之间的相交，例如"
+      },
+      { "source": "youdaotrans", "value": "返回类型应该之间的一个十字路口" }
+    ],
+    "sentence": "The return type should be an intersection between the return type and a PromiseLike, e.g."
+  },
+  {
+    "word": "determine",
+    "translation": [
+      { "source": "google", "value": "使用参考来确定何时应解析函数，例如" },
+      { "source": "youdaotrans", "value": "使用ref确定何时函数应该再保险" }
+    ],
+    "sentence": "Use a ref to determine when the function should resolve e.g."
+  },
+  {
+    "word": "especially",
+    "translation": [
+      {
+        "source": "google",
+        "value": "对于Vue的&lt;Sassense&gt; API，这特别有用。"
+      },
+      { "source": "youdaotrans", "value": "这是特别有用的Vue的&lt;苏" }
+    ],
+    "sentence": "This is especially useful in the case of Vue&#39;s &lt;Suspense&gt; api."
+  },
+  {
+    "word": "outputs",
+    "translation": [
+      {
+        "source": "google",
+        "value": "当参与浏览器尚未广泛实现的Web API时，也会输出发出的标志。"
+      },
+      { "source": "youdaotrans", "value": "当涉及到Web api,尚未及其" }
+    ],
+    "sentence": "When involved with Web APIs that are not yet implemented by the browser widely, also outputs isSupported flag."
+  },
+  {
+    "word": "proper",
+    "translation": [
+      {
+        "source": "google",
+        "value": "请参阅Usetimestamps源代码以实现适当的打字稿支持。"
+      },
+      { "source": "youdaotrans", "value": "指useTimestamps impleme源代码" }
+    ],
+    "sentence": "Refer to useTimestamps source code for the implementation of proper TypeScript support."
+  },
+  {
+    "word": "implementation",
+    "translation": [
+      {
+        "source": "google",
+        "value": "了解有关实现的更多信息：_configurable.ts"
+      },
+      { "source": "youdaotrans", "value": "了解更多关于实现:_configurable" }
+    ],
+    "sentence": "Learn more about the implementation: _configurable.ts"
+  },
+  {
+    "word": "scenarios",
+    "translation": [
+      {
+        "source": "google",
+        "value": "当使用窗口或文档之类的全局变量时，在选项界面中支持配置窗或配置尺寸，以使函数变得灵活，例如多窗口，测试模拟和SSR等方案。"
+      },
+      { "source": "youdaotrans", "value": "当使用全局变量窗口或documen" }
+    ],
+    "sentence": "When using global variables like window or document, support configurableWindow or configurableDocument in the options interface to make the function flexible when for scenarios like multi-windows, testing mocks, and SSR."
+  },
+  {
+    "word": "asynchronous",
+    "translation": [
+      { "source": "google", "value": "当功能异步时，返回正面的" },
+      { "source": "youdaotrans", "value": "当函数是异步的,返回一个Promis" }
+    ],
+    "sentence": "When the function is asynchronous, return a PromiseLike"
+  },
+  {
+    "word": "Avoid",
+    "translation": [
+      { "source": "google", "value": "避免使用控制台日志" },
+      { "source": "youdaotrans", "value": "避免使用控制台日志" }
+    ],
+    "sentence": "Avoid using console logs"
+  },
+  {
+    "word": "gracefully",
+    "translation": [
+      { "source": "google", "value": "使用TryOnunMounted优雅清除副作用" },
+      { "source": "youdaotrans", "value": "使用tryOnUnmounted明显副作用" }
+    ],
+    "sentence": "Use tryOnUnmounted to clear the side-effects gracefully"
+  },
+  {
+    "word": "internally",
+    "translation": [
+      {
+        "source": "google",
+        "value": "在内部使用手表或观察效果时，也可以尽可能配置即时和齐平选项"
+      },
+      { "source": "youdaotrans", "value": "当使用手表或watchEffect内部,也米" }
+    ],
+    "sentence": "When using watch or watchEffect internally, also make the immediate and flush options configurable whenever possible"
+  },
+  {
+    "word": "implemented",
+    "translation": [
+      {
+        "source": "google",
+        "value": "当访问浏览器尚未广泛实现的Web API时，还输出发出的标志"
+      },
+      { "source": "youdaotrans", "value": "当涉及到Web api,尚未及其" }
+    ],
+    "sentence": "When involved with Web APIs that are not yet implemented by the browser widely, also outputs isSupported flag"
+  },
+  {
+    "word": "involved",
+    "translation": [
+      {
+        "source": "google",
+        "value": "当访问浏览器尚未广泛实现的Web API时，还输出发出的标志"
+      },
+      { "source": "youdaotrans", "value": "当涉及到Web api,尚未及其" }
+    ],
+    "sentence": "When involved with Web APIs that are not yet implemented by the browser widely, also outputs isSupported flag"
+  },
+  {
+    "word": "variables",
+    "translation": [
+      {
+        "source": "google",
+        "value": "当使用窗口（例如窗口）时，请使用configurableWindow（等）。与多窗口，测试模拟和SSR一起工作时，请使用窗口（以便灵活）。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "使用configurableWindow(等)在使用全球"
+      }
+    ],
+    "sentence": "Use configurableWindow (etc.) when using global variables like window to be flexible when working with multi-windows, testing mocks, and SSR."
+  },
+  {
+    "word": "wrapping",
+    "translation": [
+      { "source": "google", "value": "包装大量数据时，请使用浅曲线代替参考。" },
+      { "source": "youdaotrans", "value": "包装时使用shallowRef而不是裁判" }
+    ],
+    "sentence": "Use shallowRef instead of ref when wrapping large amounts of data."
+  },
+  {
+    "word": "large amounts of",
+    "translation": [
+      { "source": "google", "value": "包装大量数据时，请使用浅曲线代替参考。" },
+      { "source": "youdaotrans", "value": "包装时使用shallowRef而不是裁判" }
+    ],
+    "sentence": "Use shallowRef instead of ref when wrapping large amounts of data."
+  },
+  {
+    "word": "extensions",
+    "translation": [
+      {
+        "source": "google",
+        "value": "尽可能将选项对象用作参数，以便将来更灵活。"
+      },
+      { "source": "youdaotrans", "value": "尽量使用选项对象作为参数" }
+    ],
+    "sentence": "Use options object as arguments whenever possible to be more flexible for future extensions."
+  },
+  {
+    "word": "flexible",
+    "translation": [
+      {
+        "source": "google",
+        "value": "尽可能将选项对象用作参数，以便将来更灵活。"
+      },
+      { "source": "youdaotrans", "value": "尽量使用选项对象作为参数" }
+    ],
+    "sentence": "Use options object as arguments whenever possible to be more flexible for future extensions."
+  },
+  {
+    "word": "instead",
+    "translation": [
+      { "source": "google", "value": "尽可能使用ref反应性" },
+      { "source": "youdaotrans", "value": "尽量使用ref相反的反应" }
+    ],
+    "sentence": "Use ref instead reactive whenever possible"
+  },
+  {
+    "word": "reference",
+    "translation": [
+      {
+        "source": "google",
+        "value": "您也可以将它们作为创作自己的合并功能或应用程序的参考。"
+      },
+      { "source": "youdaotrans", "value": "你也可以把它们作为一个参考" }
+    ],
+    "sentence": "You could also take them as a reference for authoring your own composable functions or apps."
+  },
+  {
+    "word": "Refer",
+    "translation": [
+      {
+        "source": "google",
+        "value": "有关组件样式的详细用法，请参阅每个功能的文档。"
+      },
+      { "source": "youdaotrans", "value": "是指每个函数相同的文档" }
+    ],
+    "sentence": "Refer to each function&#39;s documentation for the detailed usage of component style."
+  },
+  {
+    "word": "opt-in",
+    "translation": [
+      {
+        "source": "google",
+        "value": "使用NUXT 3，您可以通过将文件从.js重命名为.ts，或在组件中添加&lt;script lang =“ ts”&gt;。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "与Nuxt 3中,您可以选择通过重命名您的文件"
+      },
+      {
+        "source": "baidu",
+        "value": "使用Nuxt 3，您可以选择将文件从.js重命名为.ts，或在组件中添加&lt;script lang=“ts”&gt;。"
+      }
+    ],
+    "sentence": "With Nuxt 3, you can opt-in by renaming your file from .js to .ts , or add &lt;script lang=&quot;ts&quot;&gt; in a component."
+  },
+  {
+    "word": "prevents",
+    "translation": [
+      {
+        "source": "google",
+        "value": "完全键入的代码库可防止错误和记录API使用。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "一个完全类型代码库可以防止错误和docum"
+      }
+    ],
+    "sentence": "A fully typed codebase prevents mistakes and documents APIs usage."
+  },
+  {
+    "word": "reusable",
+    "translation": [
+      {
+        "source": "google",
+        "value": "在Composables/ Directory中编写您自己的自动提出的可重复使用功能。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "编写自己的auto-imported可重用的功能"
+      },
+      {
+        "source": "baidu",
+        "value": "在composables/目录中编写您自己的自动导入的可重用函数。"
+      }
+    ],
+    "sentence": "Write your own auto-imported reusable functions in the composables/ directory."
+  },
+  {
+    "word": "built-in",
+    "translation": [
+      {
+        "source": "google",
+        "value": "使用VUE和NUXT 3内置组合物中的自动象征反应性函数。"
+      },
+      { "source": "youdaotrans", "value": "使用从Vue auto-imported反应函数" }
+    ],
+    "sentence": "Use auto-imported Reactivity functions from Vue and Nuxt 3 built-in composables ."
+  },
+  {
+    "word": "concern",
+    "translation": [
+      {
+        "source": "google",
+        "value": "VUE 3中引入的组合API并不是选项API的替代，但它可以在整个应用程序中更好地重复使用逻辑，并且是通过复杂组件的关注来分组代码的一种更自然的方法。"
+      },
+      { "source": "youdaotrans", "value": "构成API中引入Vue 3不是一个r" },
+      {
+        "source": "baidu",
+        "value": "Vue 3中引入的Composition API不是Options API的替代品，但它可以在整个应用程序中实现更好的逻辑重用，并且是按复杂组件中的关注点对代码进行分组的更自然的方法。"
+      }
+    ],
+    "sentence": "The Composition API introduced in Vue 3 is not a replacement of the Options API, but it enables better logic reuse throughout an application, and is a more natural way to group code by concern in complex components."
+  },
+  {
+    "word": "natural",
+    "translation": [
+      {
+        "source": "google",
+        "value": "VUE 3中引入的组合API并不是选项API的替代，但它可以在整个应用程序中更好地重复使用逻辑，并且是通过复杂组件的关注来分组代码的一种更自然的方法。"
+      },
+      { "source": "youdaotrans", "value": "构成API中引入Vue 3不是一个r" },
+      {
+        "source": "baidu",
+        "value": "Vue 3中引入的Composition API不是Options API的替代品，但它可以在整个应用程序中实现更好的逻辑重用，并且是按复杂组件中的关注点对代码进行分组的更自然的方法。"
+      }
+    ],
+    "sentence": "The Composition API introduced in Vue 3 is not a replacement of the Options API, but it enables better logic reuse throughout an application, and is a more natural way to group code by concern in complex components."
+  },
+  {
+    "word": "reuse",
+    "translation": [
+      {
+        "source": "google",
+        "value": "VUE 3中引入的组合API并不是选项API的替代，但它可以在整个应用程序中更好地重复使用逻辑，并且是通过复杂组件的关注来分组代码的一种更自然的方法。"
+      },
+      { "source": "youdaotrans", "value": "构成API中引入Vue 3不是一个r" },
+      {
+        "source": "baidu",
+        "value": "Vue 3中引入的Composition API不是Options API的替代品，但它可以在整个应用程序中实现更好的逻辑重用，并且是按复杂组件中的关注点对代码进行分组的更自然的方法。"
+      }
+    ],
+    "sentence": "The Composition API introduced in Vue 3 is not a replacement of the Options API, but it enables better logic reuse throughout an application, and is a more natural way to group code by concern in complex components."
+  },
+  {
+    "word": "introduced",
+    "translation": [
+      {
+        "source": "google",
+        "value": "VUE 3中引入的组合API并不是选项API的替代，但它可以在整个应用程序中更好地重复使用逻辑，并且是通过复杂组件的关注来分组代码的一种更自然的方法。"
+      },
+      { "source": "youdaotrans", "value": "构成API中引入Vue 3不是一个r" },
+      {
+        "source": "baidu",
+        "value": "Vue 3中引入的Composition API不是Options API的替代品，但它可以在整个应用程序中实现更好的逻辑重用，并且是按复杂组件中的关注点对代码进行分组的更自然的方法。"
+      }
+    ],
+    "sentence": "The Composition API introduced in Vue 3 is not a replacement of the Options API, but it enables better logic reuse throughout an application, and is a more natural way to group code by concern in complex components."
+  },
+  {
+    "word": "including",
+    "translation": [
+      {
+        "source": "google",
+        "value": "使用版本3，VUE的大多数功能，包括模板指令和内置组件，都是可摇摆的。"
+      },
+      { "source": "youdaotrans", "value": "版本3,Vue的大部分功能,包括" },
+      {
+        "source": "baidu",
+        "value": "在版本3中，Vue的大多数功能，包括模板指令和内置组件，都是树形的。"
+      }
+    ],
+    "sentence": "With version 3, most of Vue’s functionality, including template directives and built-in components, is tree-shakable."
+  },
+  {
+    "word": "include",
+    "translation": [
+      { "source": "google", "value": "包括" },
+      { "source": "youdaotrans", "value": "包括" },
+      { "source": "baidu", "value": "包括" }
+    ],
+    "sentence": ""
+  },
+  {
+    "word": "reduction",
+    "translation": [
+      {
+        "source": "google",
+        "value": "使用VUE 3和NUXT 3，将重点放在减小捆绑尺寸上。"
+      },
+      { "source": "youdaotrans", "value": "Vue 3和Nuxt 3,重点都是包子" }
+    ],
+    "sentence": "With Vue 3 and Nuxt 3, a focus has been put on bundle size reduction."
+  },
+  {
+    "word": "On top of that",
+    "translation": [
+      {
+        "source": "google",
+        "value": "最重要的是，在使用编译的单文件组件时，VUE编译器可以通过分开静态和动态标记在构建时间进一步优化它们。"
+      },
+      { "source": "youdaotrans", "value": "最重要的是,当使用编译单" },
+      {
+        "source": "baidu",
+        "value": "最重要的是，当使用编译的单文件组件时，Vue编译器可以通过分离静态和动态标记在构建时进一步优化它们。"
+      }
+    ],
+    "sentence": "On top of that, when working with compiled Single-File Components, the Vue compiler can further optimize them at build time by separating static and dynamic markup."
+  },
+  {
+    "word": "Otherwise",
+    "translation": [
+      {
+        "source": "google",
+        "value": "否则，请转到下一章以发现NUXT：渲染模式的另一个关键功能。"
+      },
+      { "source": "youdaotrans", "value": "否则,去下一章发现anot" },
+      {
+        "source": "baidu",
+        "value": "否则，请转到下一章，了解Nuxt的另一个关键功能：渲染模式。"
+      }
+    ],
+    "sentence": "Otherwise, go to the next chapter to discover another key feature of Nuxt: Rendering modes ."
+  },
+  {
+    "word": "evolutions",
+    "translation": [
+      {
+        "source": "google",
+        "value": "如果您是NUXT 2或VUE 2的先前用户，请继续阅读以了解Vue 2和Vue 3之间的差异，以及NUXT如何整合这些演变。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "如果你是前一个用户Nuxt 2或Vue 2,柯"
+      },
+      {
+        "source": "baidu",
+        "value": "如果您以前是Nuxt 2或Vue 2的用户，请继续阅读，了解Vue 2和Vue 3之间的差异，以及Nuxt如何集成这些演进。"
+      }
+    ],
+    "sentence": "If you were a previous user of Nuxt 2 or Vue 2, keep reading to get a feel of the differences between Vue 2 and Vue 3, and how Nuxt integrates those evolutions."
+  },
+  {
+    "word": "represents",
+    "translation": [
+      {
+        "source": "google",
+        "value": "app.vue文件是输入点，它表示浏览器窗口中显示的页面。"
+      },
+      { "source": "youdaotrans", "value": "app.vue文件的入口点,represe" },
+      {
+        "source": "baidu",
+        "value": "应用程序。vue文件是入口点，表示浏览器窗口中显示的页面。"
+      }
+    ],
+    "sentence": "The app.vue file is the entry point, which represents the page displayed in the browser window."
+  },
+  {
+    "word": "major",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT 3集成了VUE 3，这是VUE的新主要版本，可为NUXT用户提供新的模式。"
+      },
+      { "source": "youdaotrans", "value": "Nuxt 3集Vue 3,新的主要版本的" },
+      {
+        "source": "baidu",
+        "value": "Nuxt 3集成了Vue 3，Vue的新主要版本为Nuxt用户提供了新模式。"
+      }
+    ],
+    "sentence": "Nuxt 3 integrates Vue 3, the new major release of Vue that enables new patterns for Nuxt users."
+  },
+  {
+    "word": "integrates",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT 3集成了VUE 3，这是VUE的新主要版本，可为NUXT用户提供新的模式。"
+      },
+      { "source": "youdaotrans", "value": "Nuxt 3集Vue 3,新的主要版本的" },
+      {
+        "source": "baidu",
+        "value": "Nuxt 3集成了Vue 3，Vue的新主要版本为Nuxt用户提供了新模式。"
+      }
+    ],
+    "sentence": "Nuxt 3 integrates Vue 3, the new major release of Vue that enables new patterns for Nuxt users."
+  },
+  {
+    "word": "implicit",
+    "translation": [
+      {
+        "source": "google",
+        "value": "这将完全禁用隐式自动导入，但仍然可以使用显式导入。"
+      },
+      { "source": "youdaotrans", "value": "这将禁用完全隐式汽车进口" },
+      {
+        "source": "baidu",
+        "value": "这将完全禁用隐式自动导入，但仍可以使用显式导入。"
+      }
+    ],
+    "sentence": "This will disable implicit auto imports completely but it&#39;s still possible to use Explicit Imports ."
+  },
+  {
+    "word": "exposes",
+    "translation": [
+      {
+        "source": "google",
+        "value": "VUE 3暴露了反应性API，例如REF或计算，以及由NUXT自动提出的生命周期钩子和助手。"
+      },
+      { "source": "youdaotrans", "value": "Vue 3公开反应api像裁判或计算" },
+      {
+        "source": "baidu",
+        "value": "Vue 3公开了诸如ref或computed之类的反应性API，以及由Nuxt自动导入的生命周期挂钩和帮助程序。"
+      }
+    ],
+    "sentence": "Vue 3 exposes Reactivity APIs like ref or computed, as well as lifecycle hooks and helpers that are auto-imported by Nuxt."
+  },
+  {
+    "word": "composables",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT自动IMPORTS助手功能，组合和VUE API在您的应用程序中使用，而无需明确导入它们。"
+      },
+      { "source": "youdaotrans", "value": "Nuxt汽车进口辅助函数,可组合" },
+      {
+        "source": "baidu",
+        "value": "Nuxt自动导入助手函数、可组合函数和Vue API，以便在应用程序中使用，而无需显式导入它们。"
+      }
+    ],
+    "sentence": "Nuxt auto-imports helper functions, composables and Vue APIs to use across your application without explicitly importing them."
+  },
+  {
+    "word": "improvements",
+    "translation": [
+      { "source": "google", "value": "NUXT 3每天都在降落，改进和错误修复。" },
+      { "source": "youdaotrans", "value": "Nuxt 3是着陆提交、改进和错误" },
+      { "source": "baidu", "value": "Nuxt3每天都会提交、改进和修复bug。" }
+    ],
+    "sentence": "Nuxt 3 is landing commits, improvements, and bug fixes every day."
+  },
+  {
+    "word": "configuration",
+    "translation": [
+      { "source": "google", "value": "配置文件的名称。" },
+      { "source": "youdaotrans", "value": "配置文件的名称。" },
+      { "source": "baidu", "value": "配置文件的名称。" }
+    ],
+    "sentence": "Name of the configuration file."
+  },
+  {
+    "word": "performs",
+    "translation": [
+      {
+        "source": "google",
+        "value": "在幕后，设置在beforeall，theeach，aftereach和aller中执行许多任务，以正确设置NUXT测试环境。"
+      },
+      { "source": "youdaotrans", "value": "在幕后,设置执行大量的任务" },
+      {
+        "source": "baidu",
+        "value": "在幕后，安装程序执行beforeAll、beforeEach、afterEach和afterAll中的许多任务，以正确设置Nuxt测试环境。"
+      }
+    ],
+    "sentence": "Behind the scenes, setup performs a number of tasks in beforeAll, beforeEach, afterEach and afterAll to set up the Nuxt test environment correctly."
+  },
+  {
+    "word": "advantage",
+    "translation": [
+      {
+        "source": "google",
+        "value": "在每个描述块中，您要利用 @nuxt/test-utils助手方法，您将需要在开始之前设置测试上下文。"
+      },
+      { "source": "youdaotrans", "value": "在每个描述块,你正在服用效果显著" },
+      {
+        "source": "baidu",
+        "value": "在利用@nuxt/test-utils helper方法的每个描述块中，需要在开始之前设置测试上下文。"
+      }
+    ],
+    "sentence": "In each describe block where you are taking advantage of the @nuxt/test-utils helper methods, you will need to set up the test context before beginning."
+  },
+  {
+    "word": "receive",
+    "translation": [
+      { "source": "google", "value": "#Error插槽将收到错误作为道具。" },
+      { "source": "youdaotrans", "value": "#错误槽将收到错误作为支撑。" },
+      { "source": "baidu", "value": "#error插槽将接收错误作为属性。" }
+    ],
+    "sentence": "The #error slot will receive error as a prop."
+  },
+  {
+    "word": "prevent",
+    "translation": [
+      {
+        "source": "google",
+        "value": "在客户端，它将防止错误燃烧到顶层，并呈现#Error插槽。"
+      },
+      { "source": "youdaotrans", "value": "在客户端,它将阻止错误的小家伙" },
+      {
+        "source": "baidu",
+        "value": "在客户端，它将防止错误冒泡到顶层，并将呈现#error槽。"
+      }
+    ],
+    "sentence": "On client-side, it will prevent the error from bubbling up to the top level, and will render the #error slot instead."
+  },
+  {
+    "word": "occur",
+    "translation": [
+      { "source": "google", "value": "此组件负责处理其默认插槽内发生的错误。" },
+      { "source": "youdaotrans", "value": "此组件负责处理错误" }
+    ],
+    "sentence": "This component is responsible for handling errors that occur within its default slot."
+  },
+  {
+    "word": "responsible",
+    "translation": [
+      { "source": "google", "value": "此组件负责处理其默认插槽内发生的错误。" },
+      { "source": "youdaotrans", "value": "此组件负责处理错误" },
+      { "source": "baidu", "value": "此组件负责处理其默认插槽中发生的错误。" }
+    ],
+    "sentence": "This component is responsible for handling errors that occur within its default slot."
+  },
+  {
+    "word": "without",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT还提供了&lt;nuxterrorboundary&gt;组件，该组件允许您在应用程序中处理客户端错误，而无需使用错误页面替换整个站点。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "Nuxt还提供了一个&lt; NuxtErrorBoundary &gt;组件"
+      },
+      {
+        "source": "baidu",
+        "value": "Nuxt还提供了一个&lt;NuxtErrorBoundary&gt;组件，允许您处理应用程序中的客户端错误，而无需用错误页面替换整个站点。"
+      }
+    ],
+    "sentence": "Nuxt also provides a &lt;NuxtErrorBoundary&gt; component that allows you to handle client-side errors within your app, without replacing your entire site with an error page."
+  },
+  {
+    "word": "instead",
+    "translation": [
+      { "source": "google", "value": "建议使用throw createError（）。" },
+      { "source": "youdaotrans", "value": "建议而不是使用显示createError扔" },
+      { "source": "baidu", "value": "建议改用throw createError（）。" }
+    ],
+    "sentence": "It is recommended instead to use throw createError()."
+  },
+  {
+    "word": "until",
+    "translation": [
+      {
+        "source": "google",
+        "value": "请确保在使用依赖于NUXT插件的任何内容（例如$ ROUTE或USEROUTER）之前检查一下，好像插件会丢弃错误，然后才能重新运行，直到您清除错误。"
+      },
+      { "source": "youdaotrans", "value": "确保在使用前检查任何依赖" },
+      {
+        "source": "baidu",
+        "value": "在使用任何依赖于Nuxt插件（如$route或useRouter）的插件之前，请确保先进行检查，就好像插件抛出了错误一样，然后在您清除错误之前，它不会重新运行。"
+      }
+    ],
+    "sentence": "Make sure to check before using anything dependent on Nuxt plugins, such as $route or useRouter, as if a plugin threw an error, then it won&#39;t be re-run until you clear the error."
+  },
+  {
+    "word": "customize",
+    "translation": [
+      {
+        "source": "google",
+        "value": "您可以通过在应用程序的源目录中添加〜/error.vue来自定义此错误页面，以及app.vue。"
+      },
+      { "source": "youdaotrans", "value": "你可以定制错误页面通过添加~ /埃罗" },
+      {
+        "source": "baidu",
+        "value": "您可以通过添加~/error自定义此错误页。vue位于应用程序的源目录中，旁边是app.vue。"
+      }
+    ],
+    "sentence": "You can customize this error page by adding ~/error.vue in the source directory of your application, alongside app.vue."
+  },
+  {
+    "word": "fatal",
+    "translation": [
+      {
+        "source": "google",
+        "value": "当NUXT遇到致命错误，无论是在服务器生命周期期间还是在渲染VUE应用程序（SSR和SPA）时，它将呈现JSON响应（如果要求使用Accept/json header）或HTML错误页面。"
+      },
+      { "source": "youdaotrans", "value": "当Nuxt遇到致命错误时,是否在" },
+      {
+        "source": "baidu",
+        "value": "当Nuxt遇到致命错误时，无论是在服务器生命周期中，还是在呈现Vue应用程序（SSR和SPA）时，它都会呈现JSON响应（如果使用Accept:application/JSON头请求）或HTML错误页。"
+      }
+    ],
+    "sentence": "When Nuxt encounters a fatal error, whether during the server lifecycle, or when rendering your Vue application (both SSR and SPA), it will either render a JSON response (if requested with Accept: application/json header) or an HTML error page."
+  },
+  {
+    "word": "encounters",
+    "translation": [
+      {
+        "source": "google",
+        "value": "当NUXT遇到致命错误，无论是在服务器生命周期期间还是在渲染VUE应用程序（SSR和SPA）时，它将呈现JSON响应（如果要求使用Accept/json header）或HTML错误页面。"
+      },
+      { "source": "youdaotrans", "value": "当Nuxt遇到致命错误时,是否在" },
+      {
+        "source": "baidu",
+        "value": "当Nuxt遇到致命错误时，无论是在服务器生命周期中，还是在呈现Vue应用程序（SSR和SPA）时，它都会呈现JSON响应（如果使用Accept:application/JSON头请求）或HTML错误页。"
+      }
+    ],
+    "sentence": "When Nuxt encounters a fatal error, whether during the server lifecycle, or when rendering your Vue application (both SSR and SPA), it will either render a JSON response (if requested with Accept: application/json header) or an HTML error page."
+  },
+  {
+    "word": "see the next section",
+    "translation": [
+      {
+        "source": "google",
+        "value": "您当前无法为这些错误定义服务器端处理程序，但可以呈现一个错误页面（请参阅下一节）。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "你不能现在定义一个服务器端处理程序"
+      },
+      {
+        "source": "baidu",
+        "value": "当前无法为这些错误定义服务器端处理程序，但可以呈现错误页（请参阅下一节）。"
+      }
+    ],
+    "sentence": "You cannot currently define a server-side handler for these errors, but can render an error page (see the next section)."
+  },
+  {
+    "word": "currently",
+    "translation": [
+      {
+        "source": "google",
+        "value": "您当前无法为这些错误定义服务器端处理程序，但可以呈现一个错误页面（请参阅下一节）。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "你不能现在定义一个服务器端处理程序"
+      },
+      {
+        "source": "baidu",
+        "value": "当前无法为这些错误定义服务器端处理程序，但可以呈现错误页（请参阅下一节）。"
+      }
+    ],
+    "sentence": "You cannot currently define a server-side handler for these errors, but can render an error page (see the next section)."
+  },
+  {
+    "word": "processing",
+    "translation": [
+      {
+        "source": "google",
+        "value": "处理应用程序：创建和应用程序：beforemount钩子"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "处理程序:创建和应用:beforeMount钩子"
+      },
+      { "source": "baidu", "value": "处理app:created和app:beforeMount挂钩" }
+    ],
+    "sentence": "processing app:created and app:beforeMount hooks"
+  },
+  {
+    "word": "even",
+    "translation": [
+      { "source": "google", "value": "即使处理它们，它也会收到所有VUE错误。" },
+      { "source": "youdaotrans", "value": "它将得到所有Vue错误,即使他们是h" },
+      { "source": "baidu", "value": "它将接收所有Vue错误，即使它们已被处理。" }
+    ],
+    "sentence": "It will receive all Vue errors, even if they are handled."
+  },
+  {
+    "word": "In addition",
+    "translation": [
+      {
+        "source": "google",
+        "value": "此外，NUXT提供了一个VUE：错误挂钩，如果任何错误传播到顶级，将被调用。"
+      },
+      { "source": "youdaotrans", "value": "此外,Nuxt vue:提供了一个错误钩,w" },
+      {
+        "source": "baidu",
+        "value": "此外，Nuxt提供了一个vue:error钩子，如果有错误传播到顶层，就会调用它。"
+      }
+    ],
+    "sentence": "In addition, Nuxt provides a vue:error hook that will be called if any errors propagate up to the top level."
+  },
+  {
+    "word": "unpreventable",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT 3是一个完整的堆栈框架，这意味着在不同上下文中可能发生的不可避免的用户运行时错误来源："
+      },
+      {
+        "source": "youdaotrans",
+        "value": "Nuxt 3是一个完整的框架,这意味着其他"
+      }
+    ],
+    "sentence": "Nuxt 3 is a full-stack framework, which means there are several sources of unpreventable user runtime errors that can happen in different contexts:"
+  },
+  {
+    "word": "Advanced",
+    "translation": [
+      { "source": "google", "value": "先进的" },
+      { "source": "youdaotrans", "value": "先进的" },
+      { "source": "baidu", "value": "先进的" }
+    ],
+    "sentence": "Advanced"
+  },
+  {
+    "word": "memory leaks",
+    "translation": [
+      {
+        "source": "google",
+        "value": "此类状态将在所有访问您的网站的用户中共享，并可能导致内存泄漏！"
+      },
+      { "source": "youdaotrans", "value": "这样的状态将跨visitin所有用户共享" },
+      {
+        "source": "baidu",
+        "value": "这样的状态将在访问您网站的所有用户之间共享，并可能导致内存泄漏！"
+      }
+    ],
+    "sentence": "Such state will be shared across all users visiting your website and can lead to memory leaks!"
+  },
+  {
+    "word": "contain",
+    "translation": [
+      {
+        "source": "google",
+        "value": "因为USESTATE内部的数据将被序列化为JSON，因此重要的是，它不包含无法序列化的任何内容，例如类，功能或符号。"
+      },
+      { "source": "youdaotrans", "value": "因为数据在useState将序列化" },
+      {
+        "source": "baidu",
+        "value": "因为useState中的数据将被序列化为JSON，所以重要的是它不包含任何无法序列化的内容，例如类、函数或符号。"
+      }
+    ],
+    "sentence": "Because the data inside useState will be serialized to JSON, it is important that it does not contain anything that cannot be serialized, such as classes, functions or symbols."
+  },
+  {
+    "word": "be serialized to",
+    "translation": [
+      {
+        "source": "google",
+        "value": "因为USESTATE内部的数据将被序列化为JSON，因此重要的是，它不包含无法序列化的任何内容，例如类，功能或符号。"
+      },
+      { "source": "youdaotrans", "value": "因为数据在useState将序列化" },
+      {
+        "source": "baidu",
+        "value": "因为useState中的数据将被序列化为JSON，所以重要的是它不包含任何无法序列化的内容，例如类、函数或符号。"
+      }
+    ],
+    "sentence": "Because the data inside useState will be serialized to JSON, it is important that it does not contain anything that cannot be serialized, such as classes, functions or symbols."
+  },
+  {
+    "word": "inside",
+    "translation": [
+      {
+        "source": "google",
+        "value": "因为USESTATE内部的数据将被序列化为JSON，因此重要的是，它不包含无法序列化的任何内容，例如类，功能或符号。"
+      },
+      { "source": "youdaotrans", "value": "因为数据在useState将序列化" },
+      {
+        "source": "baidu",
+        "value": "因为useState中的数据将被序列化为JSON，所以重要的是它不包含任何无法序列化的内容，例如类、函数或符号。"
+      }
+    ],
+    "sentence": "Because the data inside useState will be serialized to JSON, it is important that it does not contain anything that cannot be serialized, such as classes, functions or symbols."
+  },
+  {
+    "word": "hydration",
+    "translation": [
+      {
+        "source": "google",
+        "value": "其值将在服务器端渲染（在客户端水合期间）之后保留，并使用唯一的密钥在所有组件上共享。"
+      },
+      { "source": "youdaotrans", "value": "服务器端撕裂后其价值将被保留下来" },
+      {
+        "source": "baidu",
+        "value": "其值将在服务器端渲染（客户端水合期间）后保留，并使用唯一密钥在所有组件之间共享。"
+      }
+    ],
+    "sentence": "Its value will be preserved after server-side rendering (during client-side hydration) and shared across all components using a unique key."
+  },
+  {
+    "word": "preserved",
+    "translation": [
+      {
+        "source": "google",
+        "value": "其值将在服务器端渲染（在客户端水合期间）之后保留，并使用唯一的密钥在所有组件上共享。"
+      },
+      { "source": "youdaotrans", "value": "服务器端撕裂后其价值将被保留下来" }
+    ],
+    "sentence": "Its value will be preserved after server-side rendering (during client-side hydration) and shared across all components using a unique key."
+  },
+  {
+    "word": "convenience",
+    "translation": [
+      {
+        "source": "google",
+        "value": "另外，它具有便利功能，包括自动解析响应和串联数据。"
+      },
+      { "source": "youdaotrans", "value": "另外,它还提供了方便的特性包括" },
+      {
+        "source": "baidu",
+        "value": "此外，它还具有方便的功能，包括自动解析响应和字符串化数据。"
+      }
+    ],
+    "sentence": "Plus, it comes with convenience features including automatically parsing responses and stringifying data."
+  },
+  {
+    "word": "Plus",
+    "translation": [
+      {
+        "source": "google",
+        "value": "另外，它具有便利功能，包括自动解析响应和串联数据。"
+      },
+      { "source": "youdaotrans", "value": "另外,它还提供了方便的特性包括" },
+      {
+        "source": "baidu",
+        "value": "此外，它还具有方便的功能，包括自动解析响应和字符串化数据。"
+      }
+    ],
+    "sentence": "Plus, it comes with convenience features including automatically parsing responses and stringifying data."
+  },
+  {
+    "word": "smartly",
+    "translation": [
+      {
+        "source": "google",
+        "value": "如果它在服务器上运行，它将处理“巧妙”的API调用，或者如果在客户端上运行的API，则将其处理。"
+      },
+      { "source": "youdaotrans", "value": "它将处理“巧妙”我直接API调用" },
+      {
+        "source": "baidu",
+        "value": "如果它在服务器上运行，它将“智能地”处理直接API调用，如果它在客户端运行，则会对您的API进行客户端调用。"
+      }
+    ],
+    "sentence": "It will handle &#39;smartly&#39; making direct API calls if it&#39;s running on the server, or making a client-side call to your API if it&#39;s running on the client."
+  },
+  {
+    "word": "benefits",
+    "translation": [
+      { "source": "google", "value": "使用$ fetch有很多好处，包括：" },
+      { "source": "youdaotrans", "value": "使用美元获取有许多好处,包括:" },
+      { "source": "baidu", "value": "使用$fetch有很多好处，包括：" }
+    ],
+    "sentence": "Using $fetch has a number of benefits, including:"
+  },
+  {
+    "word": "available",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT 3使用UNJS/OHMYFETCH（除了获取）提供了与Fetch API相同的API的全球可用$ Fetch方法。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "Nuxt 3提供了一个全局可用美元获取方法"
+      },
+      {
+        "source": "baidu",
+        "value": "Nuxt 3提供了一个全局可用的$fetch方法，它使用unjs/ohmyfetch（除了fetch之外）和fetch API使用相同的API。"
+      }
+    ],
+    "sentence": "Nuxt 3 provides a globally available $fetch method using unjs/ohmyfetch (in addition to fetch) with the same API as the Fetch API ."
+  },
+  {
+    "word": "directly",
+    "translation": [
+      { "source": "google", "value": "直接地" },
+      { "source": "youdaotrans", "value": "直接" },
+      { "source": "baidu", "value": "直接地" }
+    ],
+    "sentence": ""
+  },
+  {
+    "word": "top-level",
+    "translation": [
+      {
+        "source": "google",
+        "value": "建议使用&lt;脚本设置&gt;，因为它消除了使用顶级等待的限制。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "建议使用&lt;脚本设置&gt;,因为它删除"
+      },
+      {
+        "source": "baidu",
+        "value": "建议使用&lt;script-setup&gt;，因为它消除了使用顶级等待的限制。"
+      }
+    ],
+    "sentence": "Using &lt;script setup&gt; is recommended, as it removes the limitation of using top-level await."
+  },
+  {
+    "word": "operations",
+    "translation": [
+      {
+        "source": "google",
+        "value": "（这是VUE 3的限制。）如果要使用多个async操作，例如多个使用fusefetch的调用，则需要在设置结束时使用&lt;script setup&gt;或等待它们。"
+      },
+      { "source": "youdaotrans", "value": "(这是Vue 3限制。)如果你想使用m" },
+      {
+        "source": "baidu",
+        "value": "（这是Vue 3限制。）如果要使用多个异步操作，例如多次调用useFetch，则需要使用&lt;script-setup&gt;或在安装结束时一起等待。"
+      }
+    ],
+    "sentence": "(This is a Vue 3 limitation.) If you want to use multiple async operations, such as multiple calls to useFetch, you will need to use &lt;script setup&gt; or await them together at the end of setup."
+  },
+  {
+    "word": "limitation",
+    "translation": [
+      {
+        "source": "google",
+        "value": "（这是VUE 3的限制。）如果要使用多个async操作，例如多个使用fusefetch的调用，则需要在设置结束时使用&lt;script setup&gt;或等待它们。"
+      },
+      { "source": "youdaotrans", "value": "(这是Vue 3限制。)如果你想使用m" },
+      {
+        "source": "baidu",
+        "value": "（这是Vue 3限制。）如果要使用多个异步操作，例如多次调用useFetch，则需要使用&lt;script-setup&gt;或在安装结束时一起等待。"
+      }
+    ],
+    "sentence": "(This is a Vue 3 limitation.) If you want to use multiple async operations, such as multiple calls to useFetch, you will need to use &lt;script setup&gt; or await them together at the end of setup."
+  },
+  {
+    "word": "Imagine",
+    "translation": [
+      {
+        "source": "google",
+        "value": "想象一下/api/山/珠穆朗玛峰返回以下对象："
+      },
+      { "source": "youdaotrans", "value": "想象/ api /山脉珠穆朗玛峰返回佛" },
+      { "source": "baidu", "value": "假设/api/mounts/everest返回以下对象：" }
+    ],
+    "sentence": "Imagine that /api/mountains/everest returns the following object:"
+  },
+  {
+    "word": "recommend",
+    "translation": [
+      {
+        "source": "google",
+        "value": "我们强烈建议您仅选择将在组件中使用的键。"
+      },
+      { "source": "youdaotrans", "value": "我们强烈建议你只选择键那" },
+      { "source": "baidu", "value": "我们强烈建议您只选择将在组件中使用的键。" }
+    ],
+    "sentence": "We strongly recommend you only select the keys that you will use in your component."
+  },
+  {
+    "word": "direction",
+    "translation": [
+      {
+        "source": "google",
+        "value": "如果您想向另一个方向传递/代理cookie，从内部请求回到客户端，则需要自己处理。"
+      },
+      { "source": "youdaotrans", "value": "如果你想传递/代理饼干" },
+      {
+        "source": "baidu",
+        "value": "如果您想从另一个方向将/代理cookie从内部请求传递回客户端，则需要自己处理。"
+      }
+    ],
+    "sentence": "If you want to pass on/proxy cookies in the other direction, from an internal request back to the client, you will need to handle this yourself."
+  },
+  {
+    "word": "access",
+    "translation": [
+      {
+        "source": "google",
+        "value": "下面的示例将请求标头添加到同构$提取调用中，以确保API端点可以访问用户最初发送的同一cookie头。"
+      },
+      { "source": "youdaotrans", "value": "下面的例子将请求头添加到一个我" },
+      {
+        "source": "baidu",
+        "value": "下面的示例将请求头添加到同构的$fetch调用中，以确保API端点可以访问用户最初发送的相同cookie头。"
+      }
+    ],
+    "sentence": "The example below adds the request headers to an isomorphic $fetch call to ensure that the API endpoint has access to the same cookie header originally sent by the user."
+  },
+  {
+    "word": "endpoint",
+    "translation": [
+      {
+        "source": "google",
+        "value": "下面的示例将请求标头添加到同构$提取调用中，以确保API端点可以访问用户最初发送的同一cookie头。"
+      },
+      { "source": "youdaotrans", "value": "下面的例子将请求头添加到一个我" },
+      {
+        "source": "baidu",
+        "value": "下面的示例将请求头添加到同构的$fetch调用中，以确保API端点可以访问用户最初发送的相同cookie头。"
+      }
+    ],
+    "sentence": "The example below adds the request headers to an isomorphic $fetch call to ensure that the API endpoint has access to the same cookie header originally sent by the user."
+  },
+  {
+    "word": "ensure",
+    "translation": [
+      {
+        "source": "google",
+        "value": "下面的示例将请求标头添加到同构$提取调用中，以确保API端点可以访问用户最初发送的同一cookie头。"
+      },
+      { "source": "youdaotrans", "value": "下面的例子将请求头添加到一个我" },
+      {
+        "source": "baidu",
+        "value": "下面的示例将请求头添加到同构的$fetch调用中，以确保API端点可以访问用户最初发送的相同cookie头。"
+      }
+    ],
+    "sentence": "The example below adds the request headers to an isomorphic $fetch call to ensure that the API endpoint has access to the same cookie header originally sent by the user."
+  },
+  {
+    "word": "below",
+    "translation": [
+      {
+        "source": "google",
+        "value": "下面的示例将请求标头添加到同构$提取调用中，以确保API端点可以访问用户最初发送的同一cookie头。"
+      },
+      { "source": "youdaotrans", "value": "下面的例子将请求头添加到一个我" },
+      {
+        "source": "baidu",
+        "value": "下面的示例将请求头添加到同构的$fetch调用中，以确保API端点可以访问用户最初发送的相同cookie头。"
+      }
+    ],
+    "sentence": "The example below adds the request headers to an isomorphic $fetch call to ensure that the API endpoint has access to the same cookie header originally sent by the user."
+  },
+  {
+    "word": "nor",
+    "translation": [
+      {
+        "source": "google",
+        "value": "但是在服务器端渲染期间，由于提取请求在服务器内“内部”进行，因此不包括用户的浏览器cookie，也不包括从获取响应中传递cookie。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "但在server-side-rendering,因为取回"
+      },
+      {
+        "source": "baidu",
+        "value": "但在服务器端呈现期间，由于提取请求在服务器内部发生，因此它不包括用户的浏览器cookie，也不从提取响应传递cookie。"
+      }
+    ],
+    "sentence": "But during server-side-rendering, since the fetch request takes place &#39;internally&#39; within the server, it doesn&#39;t include the user&#39;s browser cookies, nor does it pass on cookies from the fetch response."
+  },
+  {
+    "word": "takes place",
+    "translation": [
+      {
+        "source": "google",
+        "value": "但是在服务器端渲染期间，由于提取请求在服务器内“内部”进行，因此不包括用户的浏览器cookie，也不包括从获取响应中传递cookie。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "但在server-side-rendering,因为取回"
+      },
+      {
+        "source": "baidu",
+        "value": "但在服务器端呈现期间，由于提取请求在服务器内部发生，因此它不包括用户的浏览器cookie，也不从提取响应传递cookie。"
+      }
+    ],
+    "sentence": "But during server-side-rendering, since the fetch request takes place &#39;internally&#39; within the server, it doesn&#39;t include the user&#39;s browser cookies, nor does it pass on cookies from the fetch response."
+  },
+  {
+    "word": "isomorphic",
+    "translation": [
+      { "source": "google", "value": "同构" },
+      { "source": "youdaotrans", "value": "同构" },
+      { "source": "baidu", "value": "同构的" }
+    ],
+    "sentence": ""
+  },
+  {
+    "word": "perform",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT 3提供了一种在选项API中执行异步提取的方法。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "执行叨咕asyncData Nuxt 3提供了一种方法"
+      },
+      {
+        "source": "baidu",
+        "value": "Nuxt 3提供了一种在Options API中执行异步数据获取的方法。"
+      }
+    ],
+    "sentence": "Nuxt 3 provides a way to perform asyncData fetching within the Options API."
+  },
+  {
+    "word": "release",
+    "translation": [
+      {
+        "source": "google",
+        "value": "在NUXT 3的稳定发布之前，对异步的API支持可能会发生变化。"
+      },
+      { "source": "youdaotrans", "value": "选择API支持asyncData很可能改变" },
+      {
+        "source": "baidu",
+        "value": "在Nuxt 3稳定发布之前，对asyncData的选项API支持可能会发生变化。"
+      }
+    ],
+    "sentence": "Options API support for asyncData may well change before the stable release of Nuxt 3."
+  },
+  {
+    "word": "Invalidate",
+    "translation": [
+      {
+        "source": "google",
+        "value": "使UseAsyncdata，UselazyAsyncdata，usefetch和uselazyfetch的缓存无效，并触发了Refetch。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "无效的缓存useAsyncData useLazyAsync"
+      },
+      {
+        "source": "baidu",
+        "value": "使useAsyncData、useLazyAsync数据、useFetch和useLazzyFetch的缓存无效，并触发refetch。"
+      }
+    ],
+    "sentence": "Invalidate the cache of useAsyncData, useLazyAsyncData, useFetch and useLazyFetch and trigger the refetch."
+  },
+  {
+    "word": "paginate",
+    "translation": [
+      {
+        "source": "google",
+        "value": "如果用户选择分页，过滤结果，搜索等，可能会发生这种情况。"
+      },
+      { "source": "youdaotrans", "value": "这可能发生,如果用户选择随意翻阅,f" },
+      {
+        "source": "baidu",
+        "value": "如果用户选择分页、筛选结果、搜索等，则可能发生这种情况。"
+      }
+    ],
+    "sentence": "This can happen if the user chooses to paginate, filter results, search, etc."
+  },
+  {
+    "word": "course",
+    "translation": [
+      {
+        "source": "google",
+        "value": "有时，在用户的页面访问过程中，您可能需要刷新从API中加载的数据。"
+      },
+      { "source": "youdaotrans", "value": "有时在用户的pag的进程" },
+      {
+        "source": "baidu",
+        "value": "有时，在用户的页面访问过程中，可能需要刷新从API加载的数据。"
+      }
+    ],
+    "sentence": "Sometimes throughout the course of your user&#39;s page visit, you may need to refresh the data loaded from the API."
+  },
+  {
+    "word": "throughout",
+    "translation": [
+      {
+        "source": "google",
+        "value": "有时，在用户的页面访问过程中，您可能需要刷新从API中加载的数据。"
+      },
+      { "source": "youdaotrans", "value": "有时在用户的pag的进程" },
+      {
+        "source": "baidu",
+        "value": "有时，在用户的页面访问过程中，可能需要刷新从API加载的数据。"
+      }
+    ],
+    "sentence": "Sometimes throughout the course of your user&#39;s page visit, you may need to refresh the data loaded from the API."
+  },
+  {
+    "word": "equivalent",
+    "translation": [
+      {
+        "source": "google",
+        "value": "USEFETCH（URL）几乎等同于Useasyncdata（url，（）=&gt; $ fetch（url）） - 最常见用例的开发人员体验糖。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "useFetch (url)几乎是相当于useAsyncData"
+      },
+      {
+        "source": "baidu",
+        "value": "useFetch（url）几乎等同于useAsyncData（url，（）=&gt;$fetch（url）），它是最常见用例的开发者体验糖。"
+      }
+    ],
+    "sentence": "useFetch(url) is nearly equivalent to useAsyncData(url, () =&gt; $fetch(url)) - it&#39;s developer experience sugar for the most common use case."
+  },
+  {
+    "word": "complex",
+    "translation": [
+      {
+        "source": "google",
+        "value": "简而言之，Usefetch接收一个URL并获取该数据，而Useasyncdata可能具有更复杂的逻辑。"
+      },
+      { "source": "youdaotrans", "value": "总之,useFetch接收一个URL并得到哒" },
+      {
+        "source": "baidu",
+        "value": "简而言之，useFetch接收URL并获取数据，而useAsyncData可能具有更复杂的逻辑。"
+      }
+    ],
+    "sentence": "In brief, useFetch receives a URL and gets that data, whereas useAsyncData might have more complex logic."
+  },
+  {
+    "word": "whereas",
+    "translation": [
+      {
+        "source": "google",
+        "value": "简而言之，Usefetch接收一个URL并获取该数据，而Useasyncdata可能具有更复杂的逻辑。"
+      },
+      { "source": "youdaotrans", "value": "总之,useFetch接收一个URL并得到哒" },
+      {
+        "source": "baidu",
+        "value": "简而言之，useFetch接收URL并获取数据，而useAsyncData可能具有更复杂的逻辑。"
+      }
+    ],
+    "sentence": "In brief, useFetch receives a URL and gets that data, whereas useAsyncData might have more complex logic."
+  },
+  {
+    "word": "receives",
+    "translation": [
+      {
+        "source": "google",
+        "value": "简而言之，Usefetch接收一个URL并获取该数据，而Useasyncdata可能具有更复杂的逻辑。"
+      },
+      { "source": "youdaotrans", "value": "总之,useFetch接收一个URL并得到哒" },
+      {
+        "source": "baidu",
+        "value": "简而言之，useFetch接收URL并获取数据，而useAsyncData可能具有更复杂的逻辑。"
+      }
+    ],
+    "sentence": "In brief, useFetch receives a URL and gets that data, whereas useAsyncData might have more complex logic."
+  },
+  {
+    "word": "In brief",
+    "translation": [
+      {
+        "source": "google",
+        "value": "简而言之，Usefetch接收一个URL并获取该数据，而Useasyncdata可能具有更复杂的逻辑。"
+      },
+      { "source": "youdaotrans", "value": "总之,useFetch接收一个URL并得到哒" },
+      {
+        "source": "baidu",
+        "value": "简而言之，useFetch接收URL并获取数据，而useAsyncData可能具有更复杂的逻辑。"
+      }
+    ],
+    "sentence": "In brief, useFetch receives a URL and gets that data, whereas useAsyncData might have more complex logic."
+  },
+  {
+    "word": "asynchronously",
+    "translation": [
+      {
+        "source": "google",
+        "value": "在您的页面，组件和插件中，您可以使用useasyncdata来访问异步解决的数据。"
+      },
+      { "source": "youdaotrans", "value": "在你的页面,组件和插件" },
+      {
+        "source": "baidu",
+        "value": "在页面、组件和插件中，可以使用useAsyncData访问异步解析的数据。"
+      }
+    ],
+    "sentence": "Within your pages, components and plugins you can use useAsyncData to get access to data that resolves asynchronously."
+  },
+  {
+    "word": "block",
+    "translation": [
+      { "source": "google", "value": "换句话说，异步函数不会阻止导航。" },
+      { "source": "youdaotrans", "value": "换句话说,异步函数并不阻止" },
+      { "source": "baidu", "value": "换句话说，异步函数不会阻止导航。" }
+    ],
+    "sentence": "In other words, the async function does not block navigation."
+  },
+  {
+    "word": "generates",
+    "translation": [
+      {
+        "source": "google",
+        "value": "它会自动生成基于URL和获取选项的键，根据服务器路由提供请求URL的类型提示，并侵入API响应类型。"
+      },
+      { "source": "youdaotrans", "value": "它会自动生成基于URL和一个关键" },
+      {
+        "source": "baidu",
+        "value": "它根据URL和获取选项自动生成密钥，根据服务器路由为请求URL提供类型提示，并推断API响应类型。"
+      }
+    ],
+    "sentence": "It automatically generates a key based on URL and fetch options, provides type hints for request url based on server routes, and infers API response type."
+  },
+  {
+    "word": "convenient",
+    "translation": [
+      {
+        "source": "google",
+        "value": "这种组合可在Useasyncdata和$ Fetch周围提供方便的包装。"
+      },
+      { "source": "youdaotrans", "value": "这arou可组合提供了一个方便的包装器" }
+    ],
+    "sentence": "This composable provides a convenient wrapper around useAsyncData and $fetch."
+  },
+  {
+    "word": "composable",
+    "translation": [
+      {
+        "source": "google",
+        "value": "这种组合可在Useasyncdata和$ Fetch周围提供方便的包装。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "这arou可组合提供了一个方便的包装器"
+      },
+      {
+        "source": "baidu",
+        "value": "这一可组合文件为useAsyncData和$fetch提供了一个方便的包装。"
+      }
+    ],
+    "sentence": "This composable provides a convenient wrapper around useAsyncData and $fetch."
+  },
+  {
+    "word": "universally",
+    "translation": [
+      {
+        "source": "google",
+        "value": "在您的页面，组件和插件中，您可以使用usefetch从任何URL普遍获取。"
+      },
+      { "source": "youdaotrans", "value": "在你的页面,组件和插件" },
+      {
+        "source": "baidu",
+        "value": "在您的页面、组件和插件中，您可以使用useFetch从任何URL进行通用提取。"
+      }
+    ],
+    "sentence": "Within your pages, components and plugins you can use useFetch to universally fetch from any URL."
+  },
+  {
+    "word": "authenticated",
+    "translation": [
+      {
+        "source": "google",
+        "value": "导出默认default defareenuxtRoutemiddleware（（（to，from）=&gt; {// isAuthEnticated（）是一个示例方法，如果（Isauthenticatienatisticated（）= = = false）{return navigateto（&#39;/login&#39;/login&#39;）}}}}}}}}）"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "导出默认defineNuxtRouteMiddleware ((,"
+      },
+      {
+        "source": "baidu",
+        "value": "export default defineNuxtRouteMiddleware（（to，from）=&gt;{//isAuthenticated（）是一个示例方法，用于验证用户是否通过身份验证，如果（isAutheenticated（（）===false）{return navigateTo（&#39;/login&#39;）}}）"
+      }
+    ],
+    "sentence": "export default defineNuxtRouteMiddleware((to, from) =&gt; { // isAuthenticated() is an example method verifying if an user is authenticated if (isAuthenticated() === false) { return navigateTo(&#39;/login&#39;) } })"
+  },
+  {
+    "word": "protecting",
+    "translation": [
+      { "source": "google", "value": "保护 /仪表板页面的身份中间件的示例：" },
+      { "source": "youdaotrans", "value": "auth中间件保护/破折号的例子" }
+    ],
+    "sentence": "Example of an auth middleware protecting the /dashboard page:"
+  },
+  {
+    "word": "kebab",
+    "translation": [
+      {
+        "source": "google",
+        "value": "（注意：路由中间件名称归一化为烤肉串，因此somemiddleware成为中间软件。）"
+      },
+      { "source": "youdaotrans", "value": "(注意:中间件的名字是规范化的路线" }
+    ],
+    "sentence": "(Note: The route middleware name is normalized to kebab-case, so someMiddleware becomes some-middleware.)"
+  },
+  {
+    "word": "normalized",
+    "translation": [
+      {
+        "source": "google",
+        "value": "（注意：路由中间件名称归一化为烤肉串，因此somemiddleware成为中间软件。）"
+      },
+      { "source": "youdaotrans", "value": "(注意:中间件的名字是规范化的路线" },
+      {
+        "source": "baidu",
+        "value": "（注意：路由中间件名称规范化为kebab case，因此someMiddleware成为了一些中间件。）"
+      }
+    ],
+    "sentence": "(Note: The route middleware name is normalized to kebab-case, so someMiddleware becomes some-middleware.)"
+  },
+  {
+    "word": "via",
+    "translation": [
+      {
+        "source": "google",
+        "value": "名为Route Middleware，将其放置在中间件/目录中，并将在页面上使用时通过异步导入自动加载。"
+      },
+      { "source": "youdaotrans", "value": "指定路线中间件,放置在mi" },
+      {
+        "source": "baidu",
+        "value": "命名路由中间件，位于中间件/目录中，在页面上使用时将通过异步导入自动加载。"
+      }
+    ],
+    "sentence": "Named route middleware, which are placed in the middleware/ directory and will be automatically loaded via asynchronous import when used on a page."
+  },
+  {
+    "word": "asynchronous",
+    "translation": [
+      {
+        "source": "google",
+        "value": "名为Route Middleware，将其放置在中间件/目录中，并将在页面上使用时通过异步导入自动加载。"
+      },
+      { "source": "youdaotrans", "value": "指定路线中间件,放置在mi" },
+      {
+        "source": "baidu",
+        "value": "命名路由中间件，位于中间件/目录中，在页面上使用时将通过异步导入自动加载。"
+      }
+    ],
+    "sentence": "Named route middleware, which are placed in the middleware/ directory and will be automatically loaded via asynchronous import when used on a page."
+  },
+  {
+    "word": "Anonymous",
+    "translation": [
+      {
+        "source": "google",
+        "value": "匿名（或内联）路由中间件，直接在使用它们的页面中定义。"
+      },
+      { "source": "youdaotrans", "value": "匿名(或内联)路线中间件," },
+      {
+        "source": "baidu",
+        "value": "匿名（或内联）路由中间件，直接在使用它们的页面中定义。"
+      }
+    ],
+    "sentence": "Anonymous (or inline) route middleware, which are defined directly in the pages where they are used."
+  },
+  {
+    "word": "different from",
+    "translation": [
+      {
+        "source": "google",
+        "value": "尽管名称相似，但它们与服务器中间件完全不同，服务器中间件在应用程序的Nitro Server一部分中运行。"
+      },
+      { "source": "youdaotrans", "value": "尽管类似的名字,他们是完全不同的" },
+      {
+        "source": "baidu",
+        "value": "尽管名称相似，但它们与运行在应用程序的Nitro服务器部分的服务器中间件完全不同。"
+      }
+    ],
+    "sentence": "Despite the similar name, they are completely different from server middleware, which are run in the Nitro server part of your app."
+  },
+  {
+    "word": "completely",
+    "translation": [
+      {
+        "source": "google",
+        "value": "尽管名称相似，但它们与服务器中间件完全不同，服务器中间件在应用程序的Nitro Server一部分中运行。"
+      },
+      { "source": "youdaotrans", "value": "尽管类似的名字,他们是完全不同的" },
+      {
+        "source": "baidu",
+        "value": "尽管名称相似，但它们与运行在应用程序的Nitro服务器部分的服务器中间件完全不同。"
+      }
+    ],
+    "sentence": "Despite the similar name, they are completely different from server middleware, which are run in the Nitro server part of your app."
+  },
+  {
+    "word": "within",
+    "translation": [
+      {
+        "source": "google",
+        "value": "路由中间件在NUXT应用程序的VUE部分内运行。"
+      },
+      { "source": "youdaotrans", "value": "路线中间件运行中的Vue N的一部分" },
+      {
+        "source": "baidu",
+        "value": "路由中间件在Nuxt应用程序的Vue部分中运行。"
+      }
+    ],
+    "sentence": "Route middleware run within the Vue part of your Nuxt app."
+  },
+  {
+    "word": "Despite",
+    "translation": [
+      {
+        "source": "google",
+        "value": "尽管名称相似，但它们与服务器中间件完全不同，服务器中间件在应用程序的Nitro Server一部分中运行。"
+      },
+      { "source": "youdaotrans", "value": "尽管类似的名字,他们是完全不同的" },
+      {
+        "source": "baidu",
+        "value": "尽管名称相似，但它们与运行在应用程序的Nitro服务器部分的服务器中间件完全不同。"
+      }
+    ],
+    "sentence": "Despite the similar name, they are completely different from server middleware, which are run in the Nitro server part of your app."
+  },
+  {
+    "word": "extracting",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT提供了一个可自定义的路由中间件框架，您可以在整个应用程序中使用，非常适合在导航到特定路线之前提取要运行的代码。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "中间件弗拉姆号Nuxt提供了一个可定制的路线"
+      },
+      {
+        "source": "baidu",
+        "value": "Nuxt提供了一个可定制的路由中间件框架，可以在整个应用程序中使用，非常适合于在导航到特定路由之前提取要运行的代码。"
+      }
+    ],
+    "sentence": "Nuxt provides a customizable route middleware framework you can use throughout your application, ideal for extracting code that you want to run before navigating to a particular route."
+  },
+  {
+    "word": "ideal for",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT提供了一个可自定义的路由中间件框架，您可以在整个应用程序中使用，非常适合在导航到特定路线之前提取要运行的代码。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "中间件弗拉姆号Nuxt提供了一个可定制的路线"
+      },
+      {
+        "source": "baidu",
+        "value": "Nuxt提供了一个可定制的路由中间件框架，可以在整个应用程序中使用，非常适合于在导航到特定路由之前提取要运行的代码。"
+      }
+    ],
+    "sentence": "Nuxt provides a customizable route middleware framework you can use throughout your application, ideal for extracting code that you want to run before navigating to a particular route."
+  },
+  {
+    "word": "dynamic",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT通过使用动态导入来运送所需路由的JavaScript的最小值来利用每个页面上的代码分解。"
+      },
+      { "source": "youdaotrans", "value": "Nuxt利用通过代码分隔每个页面上使用" }
+    ],
+    "sentence": "Nuxt leverages code-splitting on each page by using dynamic imports to ship the minimum of JavaScript for the requested route."
+  },
+  {
+    "word": "leverages",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT通过使用动态导入来运送所需路由的JavaScript的最小值来利用每个页面上的代码分解。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "Nuxt利用通过代码分隔每个页面上使用"
+      },
+      {
+        "source": "baidu",
+        "value": "Nuxt利用每个页面上的代码拆分，通过使用动态导入为请求的路由提供最少的JavaScript。"
+      }
+    ],
+    "sentence": "Nuxt leverages code-splitting on each page by using dynamic imports to ship the minimum of JavaScript for the requested route."
+  },
+  {
+    "word": "variables",
+    "translation": [
+      {
+        "source": "google",
+        "value": "在此示例中，有一个sass部分文件，其中包含nuxt页面和组件要使用的颜色变量"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "在这个例子中,有一个萨斯部分文件控制"
+      },
+      {
+        "source": "baidu",
+        "value": "在此示例中，有一个sass部分文件，其中包含Nuxt页面和组件使用的颜色变量"
+      }
+    ],
+    "sentence": "In this example, there is a sass partial file containing color variables to be used by your Nuxt pages and components"
+  },
+  {
+    "word": "globally",
+    "translation": [
+      {
+        "source": "google",
+        "value": "要在NUXT组件样式中全球插入语句，您可以在nuxt.config文件上使用vite选项。"
+      },
+      { "source": "youdaotrans", "value": "在你的Nuxt全球insert语句成分" },
+      {
+        "source": "baidu",
+        "value": "要在Nuxt组件样式中全局插入语句，可以在Nuxt处使用Vite选项。配置文件。"
+      }
+    ],
+    "sentence": "To globally insert statements in your Nuxt components styles, you can use the Vite option at your nuxt.config file."
+  },
+  {
+    "word": "extension",
+    "translation": [
+      {
+        "source": "google",
+        "value": "例如，引用一个图像文件，如果配置了构建工具来处理此文件扩展名，该图像文件将被处理："
+      },
+      { "source": "youdaotrans", "value": "例如,引用一个图像文件,将b" },
+      {
+        "source": "baidu",
+        "value": "例如，如果将生成工具配置为处理此文件扩展名，则引用将处理的图像文件："
+      }
+    ],
+    "sentence": "For example, referencing an image file that will be processed if a build tool is configured to handle this file extension:"
+  },
+  {
+    "word": "invalidation",
+    "translation": [
+      {
+        "source": "google",
+        "value": "此步骤主要用于性能或缓存目的（例如Stylesheets Minification或浏览器缓存无效）。"
+      },
+      { "source": "youdaotrans", "value": "这一步主要用于转换原始文件" }
+    ],
+    "sentence": "This step transforms the original file mainly for performance or caching purposes (such as stylesheets minification or browser cache invalidation)."
+  },
+  {
+    "word": "process",
+    "translation": [
+      {
+        "source": "google",
+        "value": "这些构建工具的主要功能是处理JavaScript文件，但是可以通过插件（用于VITE）或加载程序（用于WebPack）进行扩展，以处理其他类型的资产，例如样式表，字体或SVG。"
+      },
+      { "source": "youdaotrans", "value": "这些构建工具的主要功能是处理" },
+      {
+        "source": "baidu",
+        "value": "这些构建工具的主要功能是处理JavaScript文件，但它们可以通过插件（用于Vite）或加载程序（用于Webpack）进行扩展，以处理其他类型的资产，如样式表、字体或SVG。"
+      }
+    ],
+    "sentence": "The main function of these build tools is to process JavaScript files, but they can be extended through plugins (for Vite) or loaders (for Webpack) to process other kind of assets, like stylesheets, fonts or SVG."
+  },
+  {
+    "word": "folder",
+    "translation": [
+      {
+        "source": "google",
+        "value": "在Visual Studio代码中打开NUXT-APP文件夹："
+      },
+      {
+        "source": "youdaotrans",
+        "value": "打开nuxt-app文件夹在Visual Studio代码:"
+      },
+      {
+        "source": "baidu",
+        "value": "在Visual Studio代码中打开nuxt应用程序文件夹："
+      }
+    ],
+    "sentence": "Open nuxt-app folder in Visual Studio Code:"
+  },
+  {
+    "word": "integrated terminal",
+    "translation": [
+      {
+        "source": "google",
+        "value": "打开终端或从Visual Studio代码中打开一个集成的终端，并使用以下命令创建一个新的入门项目："
+      },
+      {
+        "source": "youdaotrans",
+        "value": "打开终端,或从Visual Studio代码,打开"
+      },
+      {
+        "source": "baidu",
+        "value": "打开终端，或从Visual Studio代码中打开集成终端，然后使用以下命令创建新的启动程序项目："
+      }
+    ],
+    "sentence": "Open a terminal, or from Visual Studio Code , open an integrated terminal and use the following command to create a new starter project:"
+  },
+  {
+    "word": "or above",
+    "translation": [
+      {
+        "source": "google",
+        "value": "*如果您已经安装了node.js，请与Node  -  Version检查您使用的版本14.16或以上16.11。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "*如果你已经安装了node . js,检查智慧"
+      },
+      {
+        "source": "baidu",
+        "value": "*如果您已经拥有节点。js已安装，请使用node检查您使用的版本14.16或更高版本16.11。"
+      }
+    ],
+    "sentence": "* If you already have Node.js installed, check with node --version that you are using version 14.16 or above 16.11."
+  },
+  {
+    "word": "Prerequisites",
+    "translation": [
+      { "source": "google", "value": "先决条件" },
+      { "source": "youdaotrans", "value": "先决条件" },
+      { "source": "baidu", "value": "先决条件" }
+    ],
+    "sentence": "Prerequisites"
+  },
+  {
+    "word": "diving into",
+    "translation": [
+      {
+        "source": "google",
+        "value": "这是通过实际潜入代码来学习NUXT的最佳方法。"
+      },
+      { "source": "youdaotrans", "value": "这是最好的学习方式Nuxt,实际上di" }
+    ],
+    "sentence": "This is the best way to learn Nuxt, by actually diving into the code."
+  },
+  {
+    "word": "Take a stab at",
+    "translation": [
+      { "source": "google", "value": "在一个公开问题上刺伤。" },
+      { "source": "youdaotrans", "value": "尝试一个开放的问题。" }
+    ],
+    "sentence": "Take a stab at an open issue ."
+  },
+  {
+    "word": "Take a stab",
+    "translation": [
+      { "source": "google", "value": "在一个公开问题上刺伤。" },
+      { "source": "youdaotrans", "value": "尝试一个开放的问题。" },
+      { "source": "baidu", "value": "尝试解决一个悬而未决的问题。" }
+    ],
+    "sentence": "Take a stab at an open issue ."
+  },
+  {
+    "word": "Extendable",
+    "translation": [
+      {
+        "source": "google",
+        "value": "可通过强大的模块生态系统和挂钩引擎扩展，它可以轻松连接您的休息或GraphQl端点，喜欢的CMS，CSS框架等。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "可扩展的生态系统与一个强大的模块和钩"
+      },
+      {
+        "source": "baidu",
+        "value": "通过强大的模块生态系统和挂钩引擎进行扩展，它可以轻松连接REST或GraphQL端点、喜爱的CMS、CSS框架等。"
+      }
+    ],
+    "sentence": "Extendable with a strong module ecosystem and hooks engine, it makes it easy to connect your REST or GraphQL endpoints, favorite CMS, CSS frameworks and more."
+  },
+  {
+    "word": "confidence",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT是您vue.js项目的骨干，为建立您的项目提供了自信的结构，同时保持灵活性。"
+      },
+      { "source": "youdaotrans", "value": "Nuxt Vue.js项目的支柱,亲密关系" }
+    ],
+    "sentence": "Nuxt is the backbone of your Vue.js project, giving structure to build your project with confidence while keeping flexibility."
+  },
+  {
+    "word": "directory structure",
+    "translation": [
+      {
+        "source": "google",
+        "value": "除了此设置之外，NUXT提供了一个目录结构以遵循，重点是特定功能，以保持专注于创建而不是配置。"
+      },
+      { "source": "youdaotrans", "value": "这个设置,圣Nuxt提供了一个目录" },
+      {
+        "source": "baidu",
+        "value": "在此设置之上，Nuxt提供了一个可遵循的目录结构，重点关注特定的功能，以保持您的注意力集中在创建而不是配置上。"
+      }
+    ],
+    "sentence": "On top of this setup, Nuxt provides a directory structure to follow, focused on specific features to keep your focus on creating, not configuring."
+  },
+  {
+    "word": "client-side",
+    "translation": [
+      {
+        "source": "google",
+        "value": "一个路由库来处理客户端导航，我们选择了Vue-Router。"
+      },
+      { "source": "youdaotrans", "value": "一个路由库来处理客户端导航" },
+      {
+        "source": "baidu",
+        "value": "一个用于处理客户端导航的路由库，我们选择了vue路由器。"
+      }
+    ],
+    "sentence": "A routing library to handle client-side navigation, we chose vue-router ."
+  },
+  {
+    "word": "unmatched",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT使用H3用于部署多功能性，例如Serverless，Workers，Node.js和无与伦比的性能，用于为服务器端渲染或API路由提供服务的服务器，还可以支持服务器端渲染或API路由。"
+      },
+      { "source": "youdaotrans", "value": "发展为应用程序服务的服务器" },
+      {
+        "source": "baidu",
+        "value": "Nuxt是一个在开发中为应用程序提供服务的服务器，同时也支持服务器端渲染或API路由，它使用h3实现部署的多功能性，如无服务器、工人、节点。js和无与伦比的性能。"
+      }
+    ],
+    "sentence": "A server for serving your application in development, but also to support server-side rendering or API routes, Nuxt uses h3 for deployment versatility such as serverless, workers, Node.js and unmatched performance."
+  },
+  {
+    "word": "versatility",
+    "translation": [
+      {
+        "source": "google",
+        "value": "NUXT使用H3用于部署多功能性，例如Serverless，Workers，Node.js和无与伦比的性能，用于为服务器端渲染或API路由提供服务的服务器，还可以支持服务器端渲染或API路由。"
+      },
+      { "source": "youdaotrans", "value": "发展为应用程序服务的服务器" },
+      {
+        "source": "baidu",
+        "value": "Nuxt是一个在开发中为应用程序提供服务的服务器，同时也支持服务器端渲染或API路由，它使用h3实现部署的多功能性，如无服务器、工人、节点。js和无与伦比的性能。"
+      }
+    ],
+    "sentence": "A server for serving your application in development, but also to support server-side rendering or API routes, Nuxt uses h3 for deployment versatility such as serverless, workers, Node.js and unmatched performance."
+  },
+  {
+    "word": "Hybrid",
+    "translation": [
+      { "source": "google", "value": "混合VUE框架" },
+      { "source": "youdaotrans", "value": "混合Vue框架" }
+    ],
+    "sentence": "The Hybrid Vue Framework"
+  },
+  {
+    "word": "experience",
+    "translation": [
+      {
+        "source": "google",
+        "value": "使用VUE 3构建您的下一个应用程序，并体验混合渲染，强大的数据获取和新功能。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "构建您的下一个应用程序与Vue 3和经过"
+      },
+      {
+        "source": "baidu",
+        "value": "使用Vue 3构建下一个应用程序，体验混合渲染、强大的数据获取和新功能。"
+      }
+    ],
+    "sentence": "Build your next application with Vue 3 and experience hybrid rendering, powerful data fetching and new features."
+  },
+  {
+    "word": "repository",
+    "translation": [
+      { "source": "google", "value": "欢迎来到NUXT 3存储库：混合VUE框架" },
+      { "source": "youdaotrans", "value": "欢迎来到Nuxt 3库:混合Vue框架" },
+      { "source": "baidu", "value": "欢迎使用Nuxt 3存储库：混合Vue框架" }
+    ],
+    "sentence": "Welcome to Nuxt 3 repository: The Hybrid Vue Framework"
+  },
+  {
+    "word": "temporarily",
+    "translation": [
+      {
+        "source": "google",
+        "value": "此外，您可以利用PausableFilter暂时暂停一些事件。"
+      },
+      { "source": "youdaotrans", "value": "此外,你可以利用pausableFilter时间" },
+      {
+        "source": "baidu",
+        "value": "此外，您可以利用pausableFilter暂时暂停一些事件。"
+      }
+    ],
+    "sentence": "Moreover, you can utilize pausableFilter to temporarily pause some events."
+  },
+  {
+    "word": "automate",
+    "translation": [
+      {
+        "source": "google",
+        "value": "HelpShift为您提供一套完整的集成API，使您可以使用帮助档自动化，扩展和自定义支持解决方案。"
+      },
+      { "source": "youdaotrans", "value": "Helpshift为您提供全套的施暴者" }
+    ],
+    "sentence": "Helpshift provides you with a full set of integration APIs that allow you to automate, extend and customize your support solutions with Helpshift."
+  },
+  {
+    "word": "integration",
+    "translation": [
+      {
+        "source": "google",
+        "value": "HelpShift为您提供一套完整的集成API，使您可以使用帮助档自动化，扩展和自定义支持解决方案。"
+      },
+      { "source": "youdaotrans", "value": "Helpshift为您提供全套的施暴者" },
+      {
+        "source": "baidu",
+        "value": "Helpshift为您提供了一整套集成API，允许您使用Helpshift自动化、扩展和自定义支持解决方案。"
+      }
+    ],
+    "sentence": "Helpshift provides you with a full set of integration APIs that allow you to automate, extend and customize your support solutions with Helpshift."
+  },
+  {
+    "word": "provides",
+    "translation": [
+      {
+        "source": "google",
+        "value": "HelpShift为您提供一套完整的集成API，使您可以使用帮助档自动化，扩展和自定义支持解决方案。"
+      },
+      { "source": "youdaotrans", "value": "Helpshift为您提供全套的施暴者" },
+      {
+        "source": "baidu",
+        "value": "Helpshift为您提供了一整套集成API，允许您使用Helpshift自动化、扩展和自定义支持解决方案。"
+      }
+    ],
+    "sentence": "Helpshift provides you with a full set of integration APIs that allow you to automate, extend and customize your support solutions with Helpshift."
+  },
+  {
+    "word": "prepared",
+    "translation": [
+      {
+        "source": "google",
+        "value": "您可以在设置&gt; App&gt; Web Chat上找到已准备好的应用程序的嵌入代码。"
+      },
+      {
+        "source": "youdaotrans",
+        "value": "你可以找到一个准备嵌入代码为您的应用程序"
+      },
+      {
+        "source": "baidu",
+        "value": "您可以在“设置”&gt;“应用程序”&gt;“网络聊天”中找到已准备好的应用程序嵌入代码。"
+      }
+    ],
+    "sentence": "You can find a prepared embed code for your App at Settings &gt; App &gt; Web Chat."
+  },
+  {
+    "word": "toon",
+    "translation": [
+      { "source": "google", "value": "香槟" },
+      { "source": "youdaotrans", "value": "图恩" },
+      { "source": "baidu", "value": "香椿" }
+    ],
+    "sentence": ""
+  },
+  {
+    "word": "shiny",
+    "translation": [
+      { "source": "google", "value": "带有镜面亮点的闪亮表面的材料。" },
+      { "source": "youdaotrans", "value": "材料与镜面highli闪亮的表面" },
+      { "source": "baidu", "value": "用于具有镜面反射高光的闪亮曲面的材质。" }
+    ],
+    "sentence": "A material for shiny surfaces with specular highlights."
+  },
+  {
+    "word": "generation",
+    "translation": [
+      { "source": "google", "value": "一代" },
+      { "source": "youdaotrans", "value": "一代" },
+      { "source": "baidu", "value": "一代" }
+    ],
+    "sentence": ""
+  },
+  {
+    "word": "mipmap",
+    "translation": [
+      { "source": "网络", "value": "贴图细化；纹理；纹理的明细层次" }
+    ],
+    "sentence": ""
+  },
+  {
+    "word": "mirrored",
+    "translation": [
+      { "source": "google", "value": "镜像" },
+      { "source": "youdaotrans", "value": "镜像" },
+      { "source": "baidu", "value": "镜像的" }
+    ],
+    "sentence": ""
+  }
+]
