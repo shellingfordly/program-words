@@ -1,22 +1,43 @@
 <script lang="ts" setup>
-import { WordItem } from "@/types";
-
 const style = useCssModule();
 const isTurn = ref(false);
 const flipClass = computed(() => [style.flip, isTurn.value && style.turn]);
 
 defineProps<{ word: WordItem }>();
+
+const randDomColor = () =>
+  `rgba(
+    ${Math.random() * 255},
+    ${Math.random() * 255},
+    ${Math.random() * 255},
+    0.5
+  )`;
+
+const color = randDomColor();
 </script>
 
 <template>
   <div :class="flipClass" @touchstart="isTurn = !isTurn">
     <div :class="$style.flipper">
-      <div :class="$style.front">{{ word.word }}</div>
-      <div :class="$style.back">
+      <div
+        :class="$style.front"
+        :style="{
+          backgroundColor: color,
+        }"
+      >
+        {{ word.word }}
+      </div>
+      <div
+        :class="$style.back"
+        :style="{
+          backgroundColor: color,
+        }"
+      >
         <p v-for="item in word.translation">
           <span>{{ item.source }}: </span>
           <span>{{ item.value }}</span>
         </p>
+        <p>{{ word.sentence }}</p>
       </div>
     </div>
   </div>
@@ -28,6 +49,7 @@ defineProps<{ word: WordItem }>();
   height: 300px;
   perspective: 1000;
   overflow: hidden;
+  border-radius: 20px;
 
   &.turn .flipper {
     transform: rotateY(180deg);
@@ -53,13 +75,16 @@ defineProps<{ word: WordItem }>();
 
     .front {
       z-index: 2;
-      background-color: aquamarine;
       padding: 20px;
+      font-size: 50px;
+      text-align: center;
+      line-height: 260px;
     }
     .back {
       transform: rotateY(180deg);
       padding: 20px;
-      background-color: darkgoldenrod;
+      font-size: 16px;
+      line-height: 20px;
     }
   }
 }

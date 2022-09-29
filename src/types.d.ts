@@ -1,10 +1,10 @@
-export interface TranslationItem {
+interface TranslationItem {
   source: string;
   value: string;
 }
 
-export interface WordItem {
+interface WordItem {
   word: string;
   translation: TranslationItem[];
-  sentence: string;
+  sentence?: string;
 }

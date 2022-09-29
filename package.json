@@ -10,6 +10,8 @@
     "mock": "node ./build/index.js"
   },
   "dependencies": {
+    "axios": "^0.27.2",
+    "vant": "^3.6.3",
     "vue": "^3.2.37",
     "vue-router": "^4.0.16"
   },
