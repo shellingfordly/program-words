@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import WordList from "../../mock/data.json";
+import WordList from "../../public/data.json";
 import { TransSource } from "@/constants";
 
 const isTrans = ref(false);

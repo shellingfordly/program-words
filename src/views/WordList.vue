@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import WordList from "../../mock/data.json";
+import WordList from "../../public/data.json";
 import { Dialog } from "vant";
 import "vant/es/dialog/style";
 import { createWordCard } from "@/utils";

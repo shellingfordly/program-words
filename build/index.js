@@ -40,11 +40,11 @@ function parseWords(content) {
 
     const list = parseWords(result);
     const jsonData = JSON.parse(
-      fs.readFileSync(join(__dirname, "../mock/data.json"))?.toString()
+      fs.readFileSync(join(__dirname, "../public/data.json"))?.toString()
     );
 
     fs.writeFileSync(
-      join(__dirname, "../mock/data.json"),
+      join(__dirname, "../public/data.json"),
       JSON.stringify(jsonData.concat(list))
     );
   }
