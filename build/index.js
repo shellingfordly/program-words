@@ -1,73 +1,36 @@
 const fs = require("fs");
 const { join } = require("path");
-const {
-  isDivider,
-  isSentence,
-  isWord,
-  isTranslationSource,
-  isTranslation,
-} = require("./utils");
+const { isDivider } = require("./utils");
 
 function parseWords(content) {
   const list = content.split("\n\n").filter((v) => v);
-
   const result = [];
-
   for (let i = 0; i < list.length; i++) {
-    const [word, translations, sentence] = list[i].split("\n");
-    if (i == 0) console.log(sentence);
-
+    const word = list[i].match(/([a-z]|[A-Z]|\s|-)+/)[0].replace("\n", "");
+    const [translations, sentence] = list[i].match(/<p>(.+)<\/p>/g);
     const item = {
-      word,
+      word: word || "",
       translation: [],
-      sentence,
+      sentence: sentence ? sentence.replace(/<p>|<\/p>/g, "") : "",
     };
 
-    const translationList = translations.split("\\n\\n");
+    const translationList = translations
+      .split("</p><p>")
+      .map((v) => v.replace(/<p>|<\/p>/g, ""))
+      .filter((v) => !!v.trim() && !isDivider(v));
 
-    translationList.forEach((translation) => {
-      const [source, str] = translation.split("\\n");
+    for (let i = 0; i < translationList.length; i += 2) {
       item.translation.push({
-        source: source.trim().replace(/:|\[|\]|\s/g, ""),
-        value: str ? str.trim() : "",
+        source: translationList[i].trim().replace(/:|\[|\]|\s/g, ""),
+        value: translationList[i + 1].trim(),
       });
-    });
-    result.push(item);
-  }
-
-  return result;
-}
-
-function formatWords(list) {
-  const result = [];
-  for (const l of list) {
-    const item = {
-      word: "",
-      translation: [],
-      sentence: "",
-    };
-    for (const str of l) {
-      if (isWord(str)) {
-        item.word = str;
-      } else if (isTranslationSource(str)) {
-        item.translation.push({
-          source: str.replace(/:|\[|\]|\s/g, ""),
-          value: "",
-        });
-      } else if (isTranslation(str)) {
-        const t = item.translation.pop();
-        t.value = str;
-        item.translation.push(t);
-      } else if (isSentence(str)) {
-        item.sentence = str;
-      }
     }
     result.push(item);
   }
   return result;
 }
 
-(async function init() {
+(function init() {
   const dirs = fs.readdirSync(join(__dirname, "../mock/source"));
 
   for (const dir of dirs) {
